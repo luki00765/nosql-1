@@ -122,7 +122,7 @@ user 0m0.015s
 sys	0m0.019s
 ```
 
-Następnie przerobiłem strukturę rekordów tak, aby odpowiadała GeoJSON'owi, własnym skryptem X ( poprawiającym także błędy w csv ), wraz z nałożeniem indexu na loc.
+Następnie przerobiłem strukturę rekordów tak, aby odpowiadała GeoJSON'owi, własnym skryptem [usa_to_geo.js](https://github.com/cinkonaap/nosql/blob/master/zad1/usa_to_geo.js) ( poprawiającym także błędy w csv ), wraz z nałożeniem indexu na loc.
 
 ```sh
 $ time mongo usa_to_geo.js 
@@ -199,7 +199,9 @@ Plik GeoJSON : [geoQ1.geojson](https://github.com/cinkonaap/nosql/blob/master/za
 > db.uscan.find({ loc: {$near: {$geometry: chicago} } }).skip(1).limit(8).toArray()
 ```
 
-FOTO ROZWIĄZANIA
+Plik GeoJSON : [geoQ1.geojson](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ2.geojson)
+
+![2](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ2.png)
 
 #####Geo Query III - Miasta leżące w promieniu 6.0* od Calgary
 
@@ -207,7 +209,9 @@ FOTO ROZWIĄZANIA
 > db.uscan.find({loc: {$geoWithin: {$center: [[-114.1, 51.1], 6.0]}}}).toArray()
 ```
 
-FOTO ROZWIĄZANIA
+Plik GeoJSON : [geoQ1.geojson](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ3.geojson)
+
+![3](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ3.png)
 
 #####Geo Query IV - 2 najbliższe miasta od New York
 
@@ -258,6 +262,10 @@ FOTO ROZWIĄZANIA
 	}
 ]
 }
+
+Plik GeoJSON : [geoQ1.geojson](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ4.geojson)
+
+![4](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ4.png)
 
 #####Geo Query V - Miasta leżące na granicy USA z Kanadą
 
@@ -327,6 +335,8 @@ Pokazuje że 'intersection' liniowy, działa bardzo dokładnie
 > db.uscan.find({loc: {$geoWithin: {$geometry: granica}}}).toArray()
 ```
 
-FOTO ROZWIĄZANIA
+Plik GeoJSON : [geoQ1.geojson](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ6.geojson)
+
+![6](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ6.png)
 
 ---
