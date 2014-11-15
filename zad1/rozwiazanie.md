@@ -1,10 +1,10 @@
 # *Marcin Horoszko*
 
-** [Dane techniczne](#dane-techniczne)
-** [Zadanie 1a - Import CSV](#zadanie-1a)
-** [Zadanie 1b - Zliczanie rekordów](#zadanie-1b)
-** [Zadanie 1c - Tagi](#zadanie-1c)
-** [Zadanie 1d - Geolokacja](#zadanie-1d)
+* [Dane techniczne](#dane-techniczne)
+* [Zadanie 1a - Import CSV](#zadanie-1a)
+* [Zadanie 1b - Zliczanie rekordów](#zadanie-1b)
+* [Zadanie 1c - Tagi](#zadanie-1c)
+* [Zadanie 1d - Geolokacja](#zadanie-1d)
 
 ---
 
@@ -16,26 +16,34 @@ todo
 
 ## Zadanie 1a
 
-Problem ze złym formatowaniem rozwiązałem korzystając ze skryptu udostępnionego przez prowadzącego https://github.com/nosql/aggregations-2/blob/master/scripts/wbzyl/2unix.sh
+Problem ze złym formatowaniem rozwiązałem korzystając ze [skryptu](https://github.com/nosql/aggregations-2/blob/master/scripts/wbzyl/2unix.sh) udostępnionego przez prowadzącego
 
+```sh
 $ time bash 2unix.sh Train.csv Train_clear.csv
 
 real 15m39.636s
 user 0m24.448s
 sys 0m52.715s
+```
 
 Po przygotowaniu poprawnego pliku z danymi, importujemy je do bazy
 
---> MONGO DB <--
 
+#### MONGO DB
+
+```sh
 $ time mongoimport -d ug -c train --type csv --headerline --file Train_clear.csv
 
 real 9m47.314s
 user 1m11.007s
 sys 0m7.734s
+```
 
---> POSTGRESQL <--
 
+
+#### POSTGRESQL 
+
+```sh
 $ sudo -u postgres psql postgres
 > nosql
 > CREATE TABLE TRAIN (Id INT PRIMARY KEY NOT NULL, Title TEXT, Body TEXT, Tags TEXT);
@@ -43,32 +51,38 @@ $ sudo -u postgres psql postgres
 > COPY TRAIN FROM '/home/Projects/nosql_ug/zad1/Train_clear.csv' DELIMITER ',' CSV HEADER;
 
 Time: 776038,453 ms
+```
 
 ---																														
 ## Zadanie 1b
 
 Zliczamy liczbę zimportowanych rekordów
 
---> MONGO DB <--
+#### MONGO DB
 
+```sh
 $ mongo ug
 $ db.train.count()
 6034195
+```
 
---> POSTGRESQL <--
+#### POSTGRESQL
 
 Te dane zostały podane od razu po wykonaniu operacji COPY w zadaniu 1a
 
+```sh
 COPY 6034195
+```
 
 ---
 
 ## Zadanie 1c
 
---> MONGO DB <--
+#### MONGO DB
 
-Korzystam z własnego skryptu JavaScript X który pobiera wszystkie rekordy z tabeli Train, i dla każdego z nich jeżeli obiekt tags jest stringiem, zamienia go na tablicę stringów korzystając z metody String.prototype.split.
+Korzystam z własnego skryptu JavaScript [tags.js](https://github.com/cinkonaap/nosql/blob/master/zad1/tags.js) który pobiera wszystkie rekordy z tabeli Train, i dla każdego z nich jeżeli obiekt tags jest stringiem, zamienia go na tablicę stringów korzystając z metody String.prototype.split.
 
+```sh
 $ time mongo tags.js
 
 real 13m30.698s
@@ -88,31 +102,35 @@ $ mongo ug
 		"encoding"
 	]
 }
+```
 
+#### POSTGRESQL
 
---> POSTGRESQL <--
-
-Próby rozwiązania znajdują się w pliku tags.py, niestety nie udało mi się wykonać tej operacji pomyślnie
-
+Próby rozwiązania znajdują się w pliku [tags.py](https://github.com/cinkonaap/nosql/blob/master/zad1/tags.py), niestety nie udało mi się wykonać tej operacji pomyślnie
 
 ---
 
 ## Zadanie 1d
 
-Lokacje pobralem ze zrodla http://www.infoplease.com/ipa/A0001796.html#ixzz3JAR1CbKC, i przerobilem korzystając z wyrażen regularnych na format CSV. Zimportowałem go do Mongo
+Lokacje pobralem ze [źródła](http://www.infoplease.com/ipa/A0001796.html#ixzz3JAR1CbKC), i przerobilem korzystając z wyrażen regularnych na format CSV. Zimportowałem go do Mongo
 
+```sh
 $ time mongoimport -d ug -c uscan --type csv --headerline --file usa_canada_cities.csv
 
 real 0m0.845s
 user 0m0.015s
 sys	0m0.019s
+```
 
 Następnie przerobiłem strukturę rekordów tak, aby odpowiadała GeoJSON'owi, własnym skryptem X ( poprawiającym także błędy w csv ), wraz z nałożeniem indexu na loc.
 
+```sh
 $ time mongo usa_to_geo.js 
+```
 
 Po tym zapytaniu, przykładowy rekord wygląda odpowiednio
 
+```sh
 > db.uscan_cities.findOne()
 
 {
@@ -126,9 +144,11 @@ Po tym zapytaniu, przykładowy rekord wygląda odpowiednio
 		]
 	}
 }
+```
 
-Geo Query I - Wszystkie miasta leżące w zachodniej części USA
+#####Geo Query I - Wszystkie miasta leżące w zachodniej części USA
 
+```sh
 var leftUSASide = {
 ...         "type": "Polygon",
 ...         "coordinates": [
@@ -163,47 +183,94 @@ var leftUSASide = {
 
 
 > db.uscan.find({loc: {$geoWithin: {$geometry: leftUSASide}}}).toArray()
+```
 
 FOTO ROZWIĄZANIA
 
-Geo Query II - 7 najbliższych miast od Chicago
+#####Geo Query II - 7 najbliższych miast od Chicago
 
+```sh
 > var chicago = {
 	"type": "Point", 
 	"coordinates": [-87.37,41.50] 
 }
 
 > db.uscan.find({ loc: {$near: {$geometry: chicago} } }).skip(1).limit(8).toArray()
+```
 
 FOTO ROZWIĄZANIA
 
-Geo Query III - Miasta leżące w promieniu 6.0* od Calgary
+#####Geo Query III - Miasta leżące w promieniu 6.0* od Calgary
 
+```sh
 > db.uscan.find({loc: {$geoWithin: {$center: [[-114.1, 51.1], 6.0]}}}).toArray()
+```
 
 FOTO ROZWIĄZANIA
 
-Geo Query IV - 2 najbliższe miasta od New York
+#####Geo Query IV - 2 najbliższe miasta od New York
 
+```sh
 > var newyork = {
 	"type": "Point", 
 	"coordinates": [-73.58,40.47] 
 }
 
 > db.uscan.find({ loc: {$near: {$geometry: newyork} } }).skip(1).limit(3).toArray()
+```
 
-FOTO ROZWIĄZANIA
+{
+  "type": "FeatureCollection",
+  "features": [
+	{
+		"type": "Feature",
+        "properties": {},
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				-74.1,
+				40.44
+			]
+		}
+	},
+	{
+		"type": "Feature",
+        "properties": {},
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				-72.55,
+				41.19
+			]
+		}
+	},
+	{
+		"type": "Feature",
+        "properties": {},
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				-75.1,
+				39.57
+			]
+		}
+	}
+]
+}
 
-Geo Query V - Miasta leżące na granicy USA z Kanadą
+#####Geo Query V - Miasta leżące na granicy USA z Kanadą
 
+```sh
 > var granica = []
 > db.uscan.find({loc: {$geoIntersects: {$geometry: granica}}}).toArray().count()
 0
+```
 
 Pokazuje że 'intersection' liniowy, działa bardzo dokładnie
 
-Geo Query VI - Miasta leżące na terytorium Kanady, metodą polygon
+#####Geo Query VI - Miasta leżące na terytorium Kanady, metodą polygon
 
+```sh
 > var granica = {
         "type": "Polygon",
         "coordinates": [
@@ -257,6 +324,7 @@ Geo Query VI - Miasta leżące na terytorium Kanady, metodą polygon
       }
 
 > db.uscan.find({loc: {$geoWithin: {$geometry: granica}}}).toArray()
+```
 
 FOTO ROZWIĄZANIA
 
