@@ -10,7 +10,7 @@
 
 ## Dane Techniczne
 
-todo
+![h](https://github.com/cinkonaap/nosql/blob/master/zad1/hard_info.png)
 
 ---
 
@@ -199,7 +199,7 @@ Plik GeoJSON : [geoQ1.geojson](https://github.com/cinkonaap/nosql/blob/master/za
 > db.uscan.find({ loc: {$near: {$geometry: chicago} } }).skip(1).limit(8).toArray()
 ```
 
-Plik GeoJSON : [geoQ1.geojson](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ2.geojson)
+Plik GeoJSON : [geoQ2.geojson](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ2.geojson)
 
 ![2](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ2.png)
 
@@ -209,7 +209,7 @@ Plik GeoJSON : [geoQ1.geojson](https://github.com/cinkonaap/nosql/blob/master/za
 > db.uscan.find({loc: {$geoWithin: {$center: [[-114.1, 51.1], 6.0]}}}).toArray()
 ```
 
-Plik GeoJSON : [geoQ1.geojson](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ3.geojson)
+Plik GeoJSON : [geoQ3.geojson](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ3.geojson)
 
 ![3](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ3.png)
 
@@ -224,46 +224,7 @@ Plik GeoJSON : [geoQ1.geojson](https://github.com/cinkonaap/nosql/blob/master/za
 > db.uscan.find({ loc: {$near: {$geometry: newyork} } }).skip(1).limit(3).toArray()
 ```
 
-{
-  "type": "FeatureCollection",
-  "features": [
-	{
-		"type": "Feature",
-        "properties": {},
-		"geometry" : {
-			"type" : "Point",
-			"coordinates" : [
-				-74.1,
-				40.44
-			]
-		}
-	},
-	{
-		"type": "Feature",
-        "properties": {},
-		"geometry" : {
-			"type" : "Point",
-			"coordinates" : [
-				-72.55,
-				41.19
-			]
-		}
-	},
-	{
-		"type": "Feature",
-        "properties": {},
-		"geometry" : {
-			"type" : "Point",
-			"coordinates" : [
-				-75.1,
-				39.57
-			]
-		}
-	}
-]
-}
-
-Plik GeoJSON : [geoQ1.geojson](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ4.geojson)
+Plik GeoJSON : [geoQ4.geojson](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ4.geojson)
 
 ![4](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ4.png)
 
@@ -335,7 +296,7 @@ Pokazuje że 'intersection' liniowy, działa bardzo dokładnie
 > db.uscan.find({loc: {$geoWithin: {$geometry: granica}}}).toArray()
 ```
 
-Plik GeoJSON : [geoQ1.geojson](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ6.geojson)
+Plik GeoJSON : [geoQ6.geojson](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ6.geojson)
 
 ![6](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ6.png)
 
