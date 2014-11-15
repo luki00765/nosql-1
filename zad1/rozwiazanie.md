@@ -184,8 +184,9 @@ var leftUSASide = {
 
 > db.uscan.find({loc: {$geoWithin: {$geometry: leftUSASide}}}).toArray()
 ```
+Plik GeoJSON : [geoQ1.geojson](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ1.geojson)
 
-FOTO ROZWIĄZANIA
+![1](https://github.com/cinkonaap/nosql/blob/master/zad1/geoQ1.png)
 
 #####Geo Query II - 7 najbliższych miast od Chicago
 
