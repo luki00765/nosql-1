@@ -57,9 +57,9 @@ user 0m0.032s
 sys	0m0.008s
 ```
 
-[wynik agregacji]()
+[wynik agregacji](https://github.com/cinkonaap/nosql/blob/master/zad2/agregacja1_result.json)
 
-ZDJĘCIE ROZWIĄZANIA!
+![1](https://github.com/cinkonaap/nosql/blob/master/zad2/aggregacja1_chart.png)
 
 #### Agregacja II - 8 reżyserów z największą liczbą filmów
 
@@ -77,9 +77,9 @@ user 0m0.035s
 sys	0m0.006s
 ```
 
-[wynik agregacji]()
+[wynik agregacji](https://github.com/cinkonaap/nosql/blob/master/zad2/agregacja2_result.json)
 
-ZDJĘCIE ROZWIĄZANIA!
+![2](https://github.com/cinkonaap/nosql/blob/master/zad2/aggregacja2_chart.png)
 
 #### Agregacja III - 10 najaktywniejszych użytkowników
 
@@ -94,9 +94,9 @@ user 0m0.049s
 sys	0m0.021s
 ```
 
-[wynik agregacji]()
+[wynik agregacji](https://github.com/cinkonaap/nosql/blob/master/zad2/agregacja3_result.json)
 
-ZDJĘCIE ROZWIĄZANIA!
+![3](https://github.com/cinkonaap/nosql/blob/master/zad2/aggregacja3_chart.png)
 
 #### Agregacja IV - 10 najpopularniejszych filmów, czyli takich które są lubiane i komentowane zarazem
 
@@ -113,9 +113,9 @@ user 0m0.047s
 sys	0m0.007s
 ```
 
-[wynik agregacji]()
+[wynik agregacji](https://github.com/cinkonaap/nosql/blob/master/zad2/agregacja4_result.json)
 
-ZDJĘCIE ROZWIĄZANIA!
+![4](https://github.com/cinkonaap/nosql/blob/master/zad2/aggregacja4_chart.png)
 
 ---
 

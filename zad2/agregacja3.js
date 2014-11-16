@@ -1,5 +1,5 @@
 /**
-  * Agregacja - 5 najaktywniejszych użytkowników
+  * Agregacja - 10 najaktywniejszych użytkowników
  **/
 
 var res = db.getglue.aggregate(
