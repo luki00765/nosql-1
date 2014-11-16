@@ -35,7 +35,9 @@ sys	0m14.946s
 I sprawdzamy ilość zimportowanych rekordów
 
 ```sh
-
+$ mongo ug
+> db.getglue.count()
+19831300
 ```
 
 ---
@@ -123,8 +125,8 @@ sys	0m0.007s
 
 #### Agregacja I - 5 najbardziej nie lubianych filmów
 
-#### Agregacja II
+#### Agregacja II - 8 reżyserów z największą liczbą filmów
 
-#### Agregacja III
+#### Agregacja III - 10 najaktywniejszych użytkowników
 
-#### Agregacja IV
+#### Agregacja IV - 10 najpopularniejszych filmów, czyli takich które są lubiane i komentowane zarazem
