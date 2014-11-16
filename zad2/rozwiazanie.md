@@ -4,7 +4,7 @@
 * [Zadanie 2a - Pobranie pliku z danymi](#zadanie-2a)
 * [Zadanie 2b - Import danych do Mongo](#zadanie-2b)
 * [Zadanie 2c - Agregacje JS](#zadanie-2c)
-* [Zadanie 2d - Agregacje X](#zadanie-2d)
+* [Zadanie 2d - Agregacje PyMongo](#zadanie-2d)
 
 ---
 
@@ -123,10 +123,58 @@ sys	0m0.007s
 
 ## Zadanie 2d
 
+Zanim zabrałem się za robienie agregacji, musiałem przygotować narzędzia pracy z PyMongo
+
+```sh
+$ sudo apt-get install build-essential python-dev
+$ sudo pip install pymongo
+$ python
+> import pymongo
+> from pymongo import MongoClient
+> database = MongoClient().ug
+```
+
+Trzeba także mieć na uwadze, że agregacja PyMongo 1-2 argument ( gdzie w JS sam sobie parsował ), dlatego też wszystie opcje trzeba osadzić w tablicy.
+
 #### Agregacja I - 5 najbardziej nie lubianych filmów
+
+```sh
+database.getglue.aggregate([ 
+	{ "$match": { "modelName": "movies" } },
+	{ "$match": { "action": "Disliked" } }, 
+	{ "$group": { "_id": "$title", "count": {"$sum": 1} } }, 
+	{ "$sort": { "count": -1 } }, { "$limit": 10 } 
+]);
+```
 
 #### Agregacja II - 8 reżyserów z największą liczbą filmów
 
+```sh
+database.getglue.aggregate([
+	{ "$match": { "modelName": "movies" } },
+    { "$group": { "_id": { "dir": "$director", "id": "$title" }, "count": { "$sum": 1 } } },
+    { "$group": { "_id": "$_id.dir" , "count": { "$sum": 1 } } },
+    { "$sort": { "count": -1 } },"
+    { "$limit": 8 } 
+]); 
+```
+
 #### Agregacja III - 10 najaktywniejszych użytkowników
 
+```sh
+database.getglue.aggregate([
+	{ "$group": { "_id": "$userId", "count":{ "$sum": 1 } } },
+	{ "$sort": { "count": -1 } }, { "$limit": 10 }
+]);
+```
+
 #### Agregacja IV - 10 najpopularniejszych filmów, czyli takich które są lubiane i komentowane zarazem
+
+```sh
+database.getglue.aggregate([ 
+	{ "$match": { "action": "Liked" } },
+	{ "$match": { "comment": { "$ne": "" } } }, 
+	{ "$group": { "_id": "$title", count: { "$sum": 1 } } }, 
+	{ "$sort": { "count": -1 } }, { "$limit": 10 } 
+]);
+```
