@@ -134,7 +134,7 @@ $ python
 > database = MongoClient().ug
 ```
 
-Trzeba także mieć na uwadze, że agregacja PyMongo 1-2 argument ( gdzie w JS sam sobie parsował ), dlatego też wszystie opcje trzeba osadzić w tablicy.
+Trzeba także mieć na uwadze, że agregacja PyMongo przyjmuję 1-2 argumenty ( gdzie w JS sam sobie parsował ), dlatego też wszystie opcje trzeba osadzić w tablicy.
 
 #### Agregacja I - 5 najbardziej nie lubianych filmów
 
