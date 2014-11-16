@@ -81,7 +81,7 @@ sys	0m0.006s
 
 ZDJĘCIE ROZWIĄZANIA!
 
-#### Agregacja III - 5 najaktywniejszych użytkowników
+#### Agregacja III - 10 najaktywniejszych użytkowników
 
 ```sh
 > db.getglue.aggregate(
