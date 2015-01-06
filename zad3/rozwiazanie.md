@@ -1,7 +1,7 @@
 # *Marcin Horoszko, Piotr Kulas, Łukasz Ekiert*
 
 * [Opis projektu](#opis-projektu)
-* [Zadanie 3a - TBA TBA TBA](#zadanie-3a)
+* [Zadanie 3a - Anagramy](#zadanie-3a)
 * [Zadanie 3c - Liczby całkowite](#zadanie-3c)
 
 ---
@@ -14,7 +14,7 @@ Do zrobienia...
 
 ## Zadanie 3a
 
-W tym zadaniu korzystam z danych GetGlue IMDb, które sciągnąłem [stąd](http://getglue-data.s3.amazonaws.com/getglue_sample.tar.gz)
+Do zrobienia...
 
 ---
 
@@ -22,7 +22,7 @@ W tym zadaniu korzystam z danych GetGlue IMDb, które sciągnąłem [stąd](http
 
 Zadanie polega na wykonaniu czterech operacji Map-Reduce na zbiorze liczb całkowitych.
 
-Na wstępie korzystając z własnego [skryptu](LINK) napisanego w PERL, wygenerowałem zbiór liczb całkowitych.
+Na wstępie korzystając z własnego [skryptu](https://github.com/cinkonaap/nosql/blob/master/zad3/liczby_calkowite/generator.pl) napisanego w PERL, wygenerowałem zbiór liczb całkowitych.
 
 ```sh
 $ time perl generator.pl
@@ -56,7 +56,7 @@ Następnie robiłem kolejne operację Map-Reduce:
 
 #### Przykład A - Największą liczbę występujaca w tym zbiorze
 
-[max.js]()
+[max.js](https://github.com/cinkonaap/nosql/blob/master/zad3/liczby_calkowite/max.js)
 
 ```sh
 $ time mongo < max.js
@@ -77,7 +77,7 @@ Wynik:
 
 #### Przykład B - Średnią z liczb z tego zbioru
 
-[average.js]()
+[average.js](https://github.com/cinkonaap/nosql/blob/master/zad3/liczby_calkowite/average.js)
 
 ```sh
 $ time mongo < average.js
@@ -110,7 +110,7 @@ user 0m0.112s
 sys	0m0.020s
 ```
 
-[most.js]()
+[most.js](https://github.com/cinkonaap/nosql/blob/master/zad3/liczby_calkowite/most.js)
 
 ```sh
 $ time mongo < most.js
@@ -140,7 +140,7 @@ $ mongo ug
 
 #### Przykład D- Liczbę różnych liczb z tego zbioru
 
-[diff.js]()
+[diff.js](https://github.com/cinkonaap/nosql/blob/master/zad3/liczby_calkowite/diff.js)
 
 ```sh
 $ time mongo < diff.js
