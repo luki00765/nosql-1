@@ -19,19 +19,19 @@ Zadanie 3d - 3f to obszerniejsze przykłady Map-Reduce korzystające z prawdziwy
 
 ---
 
-## Zadanie 3a - Anagramy
+## Zadanie 3a
 
 Do zrobienia...
 
 ---
 
-## Zadanie 3b - ?
+## Zadanie 3b
 
 Do zrobienia...
 
 ---
 
-## Zadanie 3c - Liczby całkowite
+## Zadanie 3c
 
 Zadanie polega na wykonaniu czterech operacji Map-Reduce na zbiorze liczb całkowitych.
 
@@ -173,7 +173,7 @@ Liczba 500, widać że przy większym zbiore niż zasięg wartości wszystkie zo
 
 ---
 
-## Zadanie 3d - Stack Overflow
+## Zadanie 3d
 
 W tym zadaniu wykorzystujemy dane z Zadania 1 Train.csv, które obrazują przechowują treść i tagi pytań serwisu Stack Overflow.
 
@@ -255,13 +255,13 @@ Jak widać w 10 pierwszych wynikach, średnia wartość najczęstszej ilości ta
 
 ---
 
-## Zadanie 3e - Get Glue
+## Zadanie 3e
 
 Do zrobienia...
 
 ---
 
-## Zadanie 3f - ?
+## Zadanie 3f
 
 Do zrobienia...
 
