@@ -27,7 +27,7 @@ Do zrobienia...
 
 ## Zadanie 3b
 
-Do zrobienia...
+[Opis rozwiązania](https://github.com/cinkonaap/nosql/tree/master/zad3/matrix/vector)
 
 ---
 
@@ -110,7 +110,7 @@ Wynik:
 ```
 
 #### Przykład C - Liczby które występują najczęściej w tym zbiorze
- 
+
 Dla tego i następnego przykładu skorzystałem z mniejszego zbioru i mniejszą rozbieżnością wartości.
 
 ```sh
@@ -228,7 +228,7 @@ Co oznacza że średnia długość nazwy tematu to niedużo mniej niż 54 znakó
 [most_tags.js](https://github.com/cinkonaap/nosql/blob/master/zad3/stack_overflow/most_tags.js)
 
 ```sh
-$ time mongo ug < most_tags.js 
+$ time mongo ug < most_tags.js
 
 real	5m54.075s
 user	0m1.710s
@@ -262,7 +262,7 @@ W tym zadaniu wykorzystujemy bazę IMDB Get Glue która także była dostępna w
 Na początku przygotowujemy dane i importujemy do Mongo.
 
 ```sh
-$ time mongoimport --db ug --collection getglue --type json --file getglue_sample.json 
+$ time mongoimport --db ug --collection getglue --type json --file getglue_sample.json
 
 real 15m7.825s
 user 3m42.567s
@@ -282,7 +282,7 @@ $ mongo ug
 [user_actions.js](https://github.com/cinkonaap/nosql/blob/master/zad3/get_glue/user_actions.js)
 
 ```sh
-$ time mongo ug < user_actions.js 
+$ time mongo ug < user_actions.js
 
 real 9m45.786s
 user 0m3.243s
@@ -300,7 +300,7 @@ Jest takich użytkowników 173242
 [user_actions.js](https://github.com/cinkonaap/nosql/blob/master/zad3/get_glue/user_actions.js)
 
 ```sh
-$ time mongo ug < user_actions.js 
+$ time mongo ug < user_actions.js
 
 real 8m25.234s
 user 0m3.187s
