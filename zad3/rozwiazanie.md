@@ -275,7 +275,7 @@ I sprawdzamy poprawność importu
 $ mongo ug
 > db.getglue.count()
 19831300
-```sh
+```
 
 #### Przykład A - Ilość użytkowników wykonujących akcję
 
