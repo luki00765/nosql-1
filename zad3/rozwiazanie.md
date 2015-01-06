@@ -21,7 +21,7 @@ Zadanie 3d - 3f to obszerniejsze przykłady Map-Reduce korzystające z prawdziwy
 
 ## Zadanie 3a
 
-Do zrobienia...
+[Opis rozwiązania](https://github.com/cinkonaap/nosql/blob/master/zad3/anagramy)
 
 ---
 
