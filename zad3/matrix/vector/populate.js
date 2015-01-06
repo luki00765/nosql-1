@@ -6,7 +6,7 @@ var matrix      = db.matrix2;
 
 matrix.drop();
 
-var mat = { type : "matrix", rows = [] };
+var mat = { type : "matrix", rows : [] };
 for (var i = 0; i < size; i++) {
   var row = [];
   for(j = 0; j < size; j++) {
