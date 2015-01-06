@@ -2,11 +2,10 @@
 use strict;
 use warnings;
 
-my $RECORDS = 50;
-#my $RECORDS = 2000000;
-my $MAX_RANGE = 10000;
+my $RECORDS = 50000;
+my $MAX_RANGE = 500;
 
-my $filename = 'liczby.csv';
+my $filename = 'liczby2.csv';
 
 open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
 
