@@ -4,8 +4,8 @@
 * [Zadanie 3a - Anagramy](#zadanie-3a)
 * [Zadanie 3b - Matrix x Vector](#zadanie-3b)
 * [Zadanie 3c - Liczby całkowite](#zadanie-3c)
-* [Zadanie 3d - ? MARCIN ?](#zadanie-3d)
-* [Zadanie 3e - ? KULAS ?](#zadanie-3e)
+* [Zadanie 3d - Stack Overflow](#zadanie-3d)
+* [Zadanie 3e - Get Glue](#zadanie-3e)
 * [Zadanie 3f - ? RAZEM ?](#zadanie-3f)
 
 ---
@@ -14,9 +14,8 @@
 
 Nasza grupa skupiła się na różnych przykładach wykorzystania Map-Reduce ( tych zalecanych przez wykładowcę oraz własnych ). Podzieliliśmy nasze zadania na 3 grupy.
 
-Zadania 3a - 3d to są wszystkie zadania polecane przez prowadzącego zajęcia do zrobienia.
-Zadanie 3e jest średnio-zaawansowanym projektem operującym na danych o szerokim zakresie.
-Zadanie 3f jest pełnym projektem zbliżającym się do użytku codziennego funkcjonalności Map-Reduce
+Zadania 3a - 3c to problemy Map-Reduce polecane przez prowadzącego.
+Zadanie 3d - 3f to obszerniejsze przykłady Map-Reduce korzystające z prawdziwych danych.
 
 ---
 
@@ -152,7 +151,7 @@ $ mongo ug
 { "_id" : 127, "value" : 14 }
 ```
 
-#### Przykład D- Liczbę różnych liczb z tego zbioru
+#### Przykład D - Liczbę różnych liczb z tego zbioru
 
 [diff.js](https://github.com/cinkonaap/nosql/blob/master/zad3/liczby_calkowite/diff.js)
 
@@ -174,19 +173,95 @@ Liczba 500, widać że przy większym zbiore niż zasięg wartości wszystkie zo
 
 ---
 
-## Zadanie 3d - ?
+## Zadanie 3d - Stack Overflow
+
+W tym zadaniu wykorzystujemy dane z Zadania 1 Train.csv, które obrazują przechowują treść i tagi pytań serwisu Stack Overflow.
+
+Zaczynamy od przygotowania danych, i importu do Mongo.
+
+```sh
+$ time bash 2unix.sh Train.csv Train_clear.csv
+
+real 15m39.636s
+user 0m24.448s
+sys 0m52.715s
+```
+
+```sh
+$ time mongoimport -d ug -c train --type csv --headerline --file Train_clear.csv
+
+real 9m47.314s
+user 1m11.007s
+sys 0m7.734s
+```
+I sprawdzamy czy liczba zimportowanych rekordów się zgadza
+
+```sh
+$ mongo ug
+$ db.train.count()
+6034195
+```
+#### Przykład A - Średnia długość nazwy tematu
+
+[average_title.js](https://github.com/cinkonaap/nosql/blob/master/zad3/stack_overflow/average_title.js)
+
+```sh
+$ time mongo < average_title.js
+
+real 4m16.239s
+user 0m1.450s
+sys	0m1.497s
+```
+Wynik:
+
+```sh
+{
+	"_id" : "dlugosc",
+	"value" : 53.72121388547266
+}
+```
+
+Co oznacza że średnia długość nazwy tematu to niedużo mniej niż 54 znaków.
+
+#### Przykład B - Najczęstsza ilość tagów przypisana dla tematu
+
+[most_tags.js](https://github.com/cinkonaap/nosql/blob/master/zad3/stack_overflow/most_tags.js)
+
+```sh
+$ time mongo ug < most_tags.js 
+
+real	5m54.075s
+user	0m1.710s
+sys	0m2.035s
+
+$ mongo ug
+> db.tempResults.find().sort( { value : -1 } );
+```
+Wynik:
+
+```sh
+{ "_id" : 62, "value" : 2802 }
+{ "_id" : 60, "value" : 2797 }
+{ "_id" : 61, "value" : 2780 }
+{ "_id" : 63, "value" : 2741 }
+{ "_id" : 59, "value" : 2577 }
+{ "_id" : 58, "value" : 2564 }
+{ "_id" : 64, "value" : 2559 }
+{ "_id" : 65, "value" : 2413 }
+{ "_id" : 57, "value" : 2402 }
+{ "_id" : 66, "value" : 2245 }
+```
+Jak widać w 10 pierwszych wynikach, średnia wartość najczęstszej ilości tagów w temacie to ok. 60.
+
+---
+
+## Zadanie 3e - Get Glue
 
 Do zrobienia...
 
 ---
 
-## Zadanie 3e - ?
-
-Do zrobienia...
-
----
-
-## Zadanie 3f - PROJEKT, ?
+## Zadanie 3f - ?
 
 Do zrobienia...
 
