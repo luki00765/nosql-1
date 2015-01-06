@@ -2,7 +2,11 @@
 
 * [Opis projektu](#opis-projektu)
 * [Zadanie 3a - Anagramy](#zadanie-3a)
+* [Zadanie 3b - Matrix x Vector](#zadanie-3b)
 * [Zadanie 3c - Liczby całkowite](#zadanie-3c)
+* [Zadanie 3d - ? MARCIN ?](#zadanie-3d)
+* [Zadanie 3e - ? KULAS ?](#zadanie-3e)
+* [Zadanie 3f - ? RAZEM ?](#zadanie-3f)
 
 ---
 
