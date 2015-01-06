@@ -32,7 +32,8 @@ var map = function() {
 };
 
 var reduce  = function(word, values) {
-  if(values.length > 0)
+  print(values.length);
+  if(values.length > 1)
   {
     var result = {};
 
@@ -57,3 +58,22 @@ var reduce  = function(word, values) {
 };
 
 collection.mapReduce( map, reduce, { out : "result" } );
+
+
+// WYNIKI
+var globalCount = 0;
+var groupCount  = 0;
+db.result.find({ value : { $type : 3 } }).forEach(function(el) {
+  var anagrams = ""
+
+  print();
+  print("--- dla " + el._id + " : " + el.value.count + " anagramy ");
+  for(key in el.value) {
+    if(key != 'count')
+    anagrams += el.value[key] + " ";
+  }
+  print(anagrams);
+  globalCount += el.value.count;
+  groupCount++;
+});
+print("Lacznie znaleziono " + globalCount + " anagramow w " + groupCount + " zbiorach");

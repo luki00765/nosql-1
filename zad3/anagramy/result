@@ -1,0 +1,2757 @@
+MongoDB shell version: 2.6.6
+connecting to: test
+{
+	"result" : "result",
+	"timeMillis" : 362,
+	"counts" : {
+		"input" : 8199,
+		"emit" : 8199,
+		"reduce" : 914,
+		"output" : 7011
+	},
+	"ok" : 1
+}
+
+--- dla a1b1c1e1r1s1 : 2 anagramy 
+braces cabers 
+
+--- dla a1b1c1o1r1s1 : 2 anagramy 
+cobras carobs 
+
+--- dla a1b1d1e1g1r1 : 3 anagramy 
+barged badger garbed 
+
+--- dla a1b1d1e1i1s1 : 2 anagramy 
+abides biased 
+
+--- dla a1b1d1e1k1r1 : 3 anagramy 
+barked braked debark 
+
+--- dla a1b1d1e1l1m1 : 4 anagramy 
+ambled blamed bedlam lambed 
+
+--- dla a1b1d1e1l1r1 : 2 anagramy 
+blared balder 
+
+--- dla a1b1d1e1o1s1 : 2 anagramy 
+abodes adobes 
+
+--- dla a1b1d1e1r1s1 : 3 anagramy 
+breads beards debars 
+
+--- dla a1b1d1e1r1v1 : 2 anagramy 
+adverb braved 
+
+--- dla a1b1d1e2s1 : 2 anagramy 
+seabed debase 
+
+--- dla a1b1d1i1l1r1 : 2 anagramy 
+bridal ribald 
+
+--- dla a1b1d1i1r1s1 : 2 anagramy 
+braids disbar 
+
+--- dla a1b1d1o1r1s1 : 3 anagramy 
+adsorb broads boards 
+
+--- dla a1b1d2e1l1 : 2 anagramy 
+balded bladed 
+
+--- dla a1b1e1g1l1s1 : 2 anagramy 
+bagels gables 
+
+--- dla a1b1e1h1r1t1 : 2 anagramy 
+bather breath 
+
+--- dla a1b1e1i1l2 : 2 anagramy 
+labile liable 
+
+--- dla a1b1e1i1r1s1 : 2 anagramy 
+braise rabies 
+
+--- dla a1b1e1k1r1s1 : 3 anagramy 
+bakers brakes breaks 
+
+--- dla a1b1e1l1m1r1 : 4 anagramy 
+ambler blamer marble ramble 
+
+--- dla a1b1e1l1m1s1 : 2 anagramy 
+ambles blames 
+
+--- dla a1b1e1l1n1u1 : 2 anagramy 
+unable nebula 
+
+--- dla a1b1e1l1r1s1 : 2 anagramy 
+blares balers 
+
+--- dla a1b1e1l1r1y1 : 3 anagramy 
+barley bleary barely 
+
+--- dla a1b1e1l1s1t1 : 4 anagramy 
+ablest bleats stable tables 
+
+--- dla a1b1e1l1s1y1 : 2 anagramy 
+belays basely 
+
+--- dla a1b1e1l1t2 : 2 anagramy 
+battle tablet 
+
+--- dla a1b1e1n1r1y1 : 2 anagramy 
+barney nearby 
+
+--- dla a1b1e1r1s1t1 : 3 anagramy 
+barest breast baster 
+
+--- dla a1b1e1r1s1u1 : 2 anagramy 
+abuser bursae 
+
+--- dla a1b1e1r1s1z1 : 2 anagramy 
+brazes zebras 
+
+--- dla a1b1e1s2t1 : 4 anagramy 
+basest basset bastes beasts 
+
+--- dla a1b1e2l1n1 : 2 anagramy 
+enable baleen 
+
+--- dla a1b1e2r1t1 : 3 anagramy 
+berate beater rebate 
+
+--- dla a1b1i1n1r1s1 : 2 anagramy 
+bairns brains 
+
+--- dla a1b1i1n1r1y1 : 2 anagramy 
+binary brainy 
+
+--- dla a1b1m1r1s1u1 : 2 anagramy 
+umbras rumbas 
+
+--- dla a1b1n1o1r1y1 : 2 anagramy 
+barony baryon 
+
+--- dla a1b1o1r1s1t1 : 2 anagramy 
+aborts tabors 
+
+--- dla a1b1o1s2t1 : 2 anagramy 
+boasts sabots 
+
+--- dla a1b2d1e1r1 : 2 anagramy 
+barbed dabber 
+
+--- dla a1b2e1i1r1 : 2 anagramy 
+babier barbie 
+
+--- dla a1b2e1l1r1 : 2 anagramy 
+barbel rabble 
+
+--- dla a1c1d1e1g1r1 : 2 anagramy 
+graced cadger 
+
+--- dla a1c1d1e1h1s1 : 2 anagramy 
+cashed chased 
+
+--- dla a1c1d1e1k1l1 : 2 anagramy 
+lacked calked 
+
+--- dla a1c1d1e1l1n1 : 2 anagramy 
+candle lanced 
+
+--- dla a1c1d1e1l1s1 : 2 anagramy 
+scaled decals 
+
+--- dla a1c1d1e1m1p1 : 2 anagramy 
+camped decamp 
+
+--- dla a1c1d1e1n1o1 : 2 anagramy 
+canoed deacon 
+
+--- dla a1c1d1e1n1r1 : 2 anagramy 
+craned dancer 
+
+--- dla a1c1d1e1n1s1 : 2 anagramy 
+ascend dances 
+
+--- dla a1c1d1e1n1t1 : 2 anagramy 
+canted decant 
+
+--- dla a1c1d1e1p1r1 : 2 anagramy 
+carped redcap 
+
+--- dla a1c1d1e1r1s1 : 4 anagramy 
+cadres sacred scared cedars 
+
+--- dla a1c1d1e1r1t1 : 4 anagramy 
+crated carted redact traced 
+
+--- dla a1c1d1e1r1v1 : 2 anagramy 
+carved craved 
+
+--- dla a1c1d1e1s1u1 : 2 anagramy 
+caused sauced 
+
+--- dla a1c1e1h1m1s1 : 2 anagramy 
+schema sachem 
+
+--- dla a1c1e1h1r1s1 : 3 anagramy 
+arches search chaser 
+
+--- dla a1c1e1h1s1t1 : 3 anagramy 
+sachet chaste cheats 
+
+--- dla a1c1e1h1s2 : 2 anagramy 
+cashes chases 
+
+--- dla a1c1e1i1l1r1 : 2 anagramy 
+lacier eclair 
+
+--- dla a1c1e1i1m1n1 : 3 anagramy 
+iceman cinema anemic 
+
+--- dla a1c1e1k1p1r1 : 2 anagramy 
+packer repack 
+
+--- dla a1c1e1k1r1t1 : 2 anagramy 
+racket tacker 
+
+--- dla a1c1e1l1m1s1 : 2 anagramy 
+camels mescal 
+
+--- dla a1c1e1l1n1s1 : 2 anagramy 
+cleans lances 
+
+--- dla a1c1e1l1o1v1 : 2 anagramy 
+alcove coeval 
+
+--- dla a1c1e1l1p1r1 : 3 anagramy 
+carpel placer parcel 
+
+--- dla a1c1e1l1r1t1 : 3 anagramy 
+claret cartel rectal 
+
+--- dla a1c1e1l1s1t1 : 2 anagramy 
+cleats castle 
+
+--- dla a1c1e1l2r1 : 3 anagramy 
+caller recall cellar 
+
+--- dla a1c1e1m1r1s1 : 2 anagramy 
+creams scream 
+
+--- dla a1c1e1n1o1s1 : 2 anagramy 
+oceans canoes 
+
+--- dla a1c1e1n1r1s1 : 2 anagramy 
+caners cranes 
+
+--- dla a1c1e1n1r1t1 : 4 anagramy 
+canter nectar recant trance 
+
+--- dla a1c1e1n1r1v1 : 2 anagramy 
+cavern craven 
+
+--- dla a1c1e1n1s1t1 : 4 anagramy 
+enacts ascent secant stance 
+
+--- dla a1c1e1p1r1s1 : 7 anagramy 
+capers crapes parsec pacers recaps scrape spacer 
+
+--- dla a1c1e1r1s1t1 : 7 anagramy 
+carets crates caster caters recast reacts traces 
+
+--- dla a1c1e1r1s1u1 : 2 anagramy 
+causer saucer 
+
+--- dla a1c1e1r1s1v1 : 3 anagramy 
+carves cavers craves 
+
+--- dla a1c1e1r1s2 : 2 anagramy 
+caress scares 
+
+--- dla a1c1e1r1t1u1 : 2 anagramy 
+acuter curate 
+
+--- dla a1c1e1r2s1 : 2 anagramy 
+carers racers 
+
+--- dla a1c1e1r2t1 : 3 anagramy 
+crater carter tracer 
+
+--- dla a1c1e1s2u1 : 2 anagramy 
+causes sauces 
+
+--- dla a1c1e2m1r1 : 2 anagramy 
+amerce raceme 
+
+--- dla a1c1e2n1s1 : 2 anagramy 
+encase seance 
+
+--- dla a1c1e2p1s1 : 2 anagramy 
+escape peaces 
+
+--- dla a1c1g1i1n1r1 : 3 anagramy 
+arcing caring racing 
+
+--- dla a1c1h1n1s1t1 : 3 anagramy 
+snatch stanch chants 
+
+--- dla a1c1h1r1s1t1 : 2 anagramy 
+starch charts 
+
+--- dla a1c1i1n1o1t1 : 2 anagramy 
+action cation 
+
+--- dla a1c1i1s1t2 : 2 anagramy 
+attics static 
+
+--- dla a1c1l1o1p1u1 : 2 anagramy 
+copula cupola 
+
+--- dla a1c1l1o1r1s1 : 2 anagramy 
+carols corals 
+
+--- dla a1c1l1p1s2 : 2 anagramy 
+clasps scalps 
+
+--- dla a1c1l1r1s1w1 : 2 anagramy 
+crawls scrawl 
+
+--- dla a1c1m1o1r1s1 : 2 anagramy 
+caroms macros 
+
+--- dla a1c1n1o1r1t1 : 2 anagramy 
+cantor carton 
+
+--- dla a1c1n2o1t1 : 2 anagramy 
+cannot canton 
+
+--- dla a1c1o1r1s1t1 : 4 anagramy 
+actors castor costar scrota 
+
+--- dla a1c1o1s2t1 : 2 anagramy 
+ascots coasts 
+
+--- dla a1c1p1r1s2 : 2 anagramy 
+scarps scraps 
+
+--- dla a1c2e1i1p1 : 2 anagramy 
+ipecac icecap 
+
+--- dla a1d1e1f1i1l1 : 2 anagramy 
+afield failed 
+
+--- dla a1d1e1f1l1o1 : 2 anagramy 
+foaled loafed 
+
+--- dla a1d1e1f1m1r1 : 2 anagramy 
+farmed framed 
+
+--- dla a1d1e1f1r1t1 : 3 anagramy 
+farted rafted dafter 
+
+--- dla a1d1e1f1r1y1 : 2 anagramy 
+frayed defray 
+
+--- dla a1d1e1g1l1n1 : 2 anagramy 
+angled dangle 
+
+--- dla a1d1e1g1n1r1 : 4 anagramy 
+gander garden ranged danger 
+
+--- dla a1d1e1g1o1s1 : 2 anagramy 
+dagoes dosage 
+
+--- dla a1d1e1g1o1t1 : 2 anagramy 
+togaed dotage 
+
+--- dla a1d1e1g1r2 : 2 anagramy 
+grader regard 
+
+--- dla a1d1e1g2n1 : 2 anagramy 
+ganged nagged 
+
+--- dla a1d1e1g2r1 : 2 anagramy 
+ragged dagger 
+
+--- dla a1d1e1g2t1 : 2 anagramy 
+gadget tagged 
+
+--- dla a1d1e1h1l1t1 : 2 anagramy 
+halted lathed 
+
+--- dla a1d1e1h1m1s1 : 2 anagramy 
+mashed shamed 
+
+--- dla a1d1e1h1p1s1 : 2 anagramy 
+phased shaped 
+
+--- dla a1d1e1h1r1s1 : 2 anagramy 
+dasher shared 
+
+--- dla a1d1e1h1r1t1 : 3 anagramy 
+thread hatred dearth 
+
+--- dla a1d1e1h1s1t1 : 2 anagramy 
+hasted deaths 
+
+--- dla a1d1e1h1s2 : 2 anagramy 
+dashes shades 
+
+--- dla a1d1e1i1l1m1 : 2 anagramy 
+mailed medial 
+
+--- dla a1d1e1i1l1n1 : 2 anagramy 
+nailed denial 
+
+--- dla a1d1e1i1l1r1 : 4 anagramy 
+railed relaid redial derail 
+
+--- dla a1d1e1i1l1s1 : 3 anagramy 
+ideals ladies sailed 
+
+--- dla a1d1e1i1l1t1 : 3 anagramy 
+dilate tailed detail 
+
+--- dla a1d1e1i1m1n1 : 2 anagramy 
+maiden median 
+
+--- dla a1d1e1i1m1s1 : 2 anagramy 
+amides medias 
+
+--- dla a1d1e1i1p1r1 : 3 anagramy 
+paired repaid diaper 
+
+--- dla a1d1e1i1s1v1 : 2 anagramy 
+advise visaed 
+
+--- dla a1d1e1i1s2 : 2 anagramy 
+asides daises 
+
+--- dla a1d1e1k1n1r1 : 3 anagramy 
+ranked darken danker 
+
+--- dla a1d1e1k1n1s1 : 2 anagramy 
+kneads snaked 
+
+--- dla a1d1e1k1s1t1 : 3 anagramy 
+skated staked tasked 
+
+--- dla a1d1e1l1m1s1 : 2 anagramy 
+medals damsel 
+
+--- dla a1d1e1l1o1r1 : 3 anagramy 
+ordeal loader reload 
+
+--- dla a1d1e1l1p1s1 : 3 anagramy 
+lapsed pleads pedals 
+
+--- dla a1d1e1l1p2 : 2 anagramy 
+lapped dapple 
+
+--- dla a1d1e1l1s1t1 : 6 anagramy 
+lasted salted slated staled deltas desalt 
+
+--- dla a1d1e1l1s1v1 : 2 anagramy 
+salved slaved 
+
+--- dla a1d1e1l1s1y1 : 2 anagramy 
+slayed delays 
+
+--- dla a1d1e1m1n1o1 : 2 anagramy 
+moaned daemon 
+
+--- dla a1d1e1n1o1t1 : 2 anagramy 
+atoned donate 
+
+--- dla a1d1e1n1p1t1 : 2 anagramy 
+panted pedant 
+
+--- dla a1d1e1n1p2 : 2 anagramy 
+append napped 
+
+--- dla a1d1e1n1r1s1 : 2 anagramy 
+snared sander 
+
+--- dla a1d1e1n1r1t1 : 2 anagramy 
+ardent ranted 
+
+--- dla a1d1e1n1r1w1 : 3 anagramy 
+wander warned warden 
+
+--- dla a1d1e1n1r2 : 2 anagramy 
+errand darner 
+
+--- dla a1d1e1o1r1s1 : 2 anagramy 
+adores soared 
+
+--- dla a1d1e1o1r2 : 2 anagramy 
+adorer roared 
+
+--- dla a1d1e1p1r1s1 : 6 anagramy 
+parsed padres rasped spared spread drapes 
+
+--- dla a1d1e1p1r1t1 : 4 anagramy 
+prated parted petard depart 
+
+--- dla a1d1e1p1r2 : 2 anagramy 
+parred draper 
+
+--- dla a1d1e1p1s1t1 : 2 anagramy 
+adepts pasted 
+
+--- dla a1d1e1p1s2 : 2 anagramy 
+passed spades 
+
+--- dla a1d1e1p2r1 : 2 anagramy 
+rapped dapper 
+
+--- dla a1d1e1r1s1t1 : 4 anagramy 
+stared trades treads daters 
+
+--- dla a1d1e1r1t2 : 2 anagramy 
+ratted tarted 
+
+--- dla a1d1e1r2t1 : 4 anagramy 
+retard tarred trader darter 
+
+--- dla a1d1e1r2w1 : 5 anagramy 
+redraw reward drawer warred warder 
+
+--- dla a1d1e1s1t1y1 : 2 anagramy 
+steady stayed 
+
+--- dla a1d1e1s1t2 : 2 anagramy 
+stated tasted 
+
+--- dla a1d1e2f1r1 : 2 anagramy 
+feared deafer 
+
+--- dla a1d1e2g1r1 : 2 anagramy 
+agreed geared 
+
+--- dla a1d1e2h1r1 : 2 anagramy 
+adhere header 
+
+--- dla a1d1e2l1n1 : 2 anagramy 
+leaned leaden 
+
+--- dla a1d1e2l1p1 : 2 anagramy 
+leaped pealed 
+
+--- dla a1d1e2l1r1 : 2 anagramy 
+leader dealer 
+
+--- dla a1d1e2l1s1 : 2 anagramy 
+leased sealed 
+
+--- dla a1d1e2m1r1 : 2 anagramy 
+reamed remade 
+
+--- dla a1d1e2m1s1 : 2 anagramy 
+seamed edemas 
+
+--- dla a1d1e2n1r1 : 3 anagramy 
+earned endear neared 
+
+--- dla a1d1e2r1s1 : 2 anagramy 
+erased seared 
+
+--- dla a1d1e2r2 : 4 anagramy 
+reared reread reader dearer 
+
+--- dla a1d1e2s1t1 : 3 anagramy 
+seated sedate teased 
+
+--- dla a1d1e2s1v1 : 2 anagramy 
+evades deaves 
+
+--- dla a1d1i1n1o1r1 : 2 anagramy 
+inroad ordain 
+
+--- dla a1d1i1n1r1s1 : 3 anagramy 
+nadirs dinars drains 
+
+--- dla a1d1i1n1s1v1 : 2 anagramy 
+divans viands 
+
+--- dla a1d1m1n1o1s1 : 2 anagramy 
+nomads damson 
+
+--- dla a1d2e1g1r1 : 2 anagramy 
+graded gadder 
+
+--- dla a1d2e1h1s1 : 2 anagramy 
+dashed shaded 
+
+--- dla a1d2e1i1l1 : 2 anagramy 
+laddie dialed 
+
+--- dla a1d2e1l1n1 : 2 anagramy 
+landed dandle 
+
+--- dla a1d2e1l1r1 : 2 anagramy 
+ladder larded 
+
+--- dla a1d2e1l1s1 : 2 anagramy 
+addles saddle 
+
+--- dla a1d2e1l1w1 : 2 anagramy 
+dawdle waddle 
+
+--- dla a1d2e1m1n1 : 3 anagramy 
+madden damned demand 
+
+--- dla a1d2e1n1r1 : 2 anagramy 
+dander darned 
+
+--- dla a1d2e1n1s1 : 2 anagramy 
+sanded sadden 
+
+--- dla a1d2e1r1s1 : 3 anagramy 
+adders sadder dreads 
+
+--- dla a1d2e1r1t1 : 2 anagramy 
+traded darted 
+
+--- dla a1e1f1k1r1s1 : 2 anagramy 
+fakers freaks 
+
+--- dla a1e1f1l1r1s1 : 2 anagramy 
+flares falser 
+
+--- dla a1e1f1m1r2 : 2 anagramy 
+farmer framer 
+
+--- dla a1e1f1r1s1t1 : 3 anagramy 
+afters faster strafe 
+
+--- dla a1e1f1s1t1y1 : 2 anagramy 
+fayest safety 
+
+--- dla a1e1f1s2t1 : 2 anagramy 
+feasts safest 
+
+--- dla a1e1g1h1n1r1 : 2 anagramy 
+hanger rehang 
+
+--- dla a1e1g1i1l1n1 : 2 anagramy 
+genial linage 
+
+--- dla a1e1g1i1m1n1 : 2 anagramy 
+enigma gamine 
+
+--- dla a1e1g1i1m1r1 : 2 anagramy 
+gamier mirage 
+
+--- dla a1e1g1i1m1s1 : 2 anagramy 
+ageism images 
+
+--- dla a1e1g1i1n1r1 : 2 anagramy 
+gainer regain 
+
+--- dla a1e1g1i1r1t1 : 2 anagramy 
+gaiter triage 
+
+--- dla a1e1g1l1m1n1 : 2 anagramy 
+legman mangle 
+
+--- dla a1e1g1l1n1s1 : 3 anagramy 
+angels angles gleans 
+
+--- dla a1e1g1l1r1s1 : 3 anagramy 
+glares lagers larges 
+
+--- dla a1e1g1m1n1r1 : 2 anagramy 
+engram manger 
+
+--- dla a1e1g1n1r1s1 : 2 anagramy 
+angers ranges 
+
+--- dla a1e1g1n1r1t1 : 2 anagramy 
+argent garnet 
+
+--- dla a1e1g1n1r2 : 2 anagramy 
+garner ranger 
+
+--- dla a1e1g1p1r1s1 : 2 anagramy 
+grapes pagers 
+
+--- dla a1e1g1r1s1t1 : 2 anagramy 
+grates greats 
+
+--- dla a1e1g1r1s1u1 : 2 anagramy 
+argues augers 
+
+--- dla a1e1g1r1s1z1 : 2 anagramy 
+grazes gazers 
+
+--- dla a1e1g1r2t1 : 3 anagramy 
+garret grater garter 
+
+--- dla a1e1g1s2t1 : 2 anagramy 
+sagest stages 
+
+--- dla a1e1g2n1r1 : 2 anagramy 
+grange nagger 
+
+--- dla a1e1h1l1r1t1 : 2 anagramy 
+halter lather 
+
+--- dla a1e1h1l1s1t1 : 2 anagramy 
+halest lathes 
+
+--- dla a1e1h1l1s1w1 : 2 anagramy 
+whales wheals 
+
+--- dla a1e1h1l1s2 : 2 anagramy 
+hassle lashes 
+
+--- dla a1e1h1m1r1s1 : 2 anagramy 
+harems masher 
+
+--- dla a1e1h1m1s2 : 2 anagramy 
+mashes shames 
+
+--- dla a1e1h1n1s1t1 : 2 anagramy 
+thanes hasten 
+
+--- dla a1e1h1n1s1v1 : 2 anagramy 
+havens shaven 
+
+--- dla a1e1h1o1r1s1 : 2 anagramy 
+ashore hoarse 
+
+--- dla a1e1h1p1r1s1 : 2 anagramy 
+phrase seraph 
+
+--- dla a1e1h1p1s2 : 2 anagramy 
+phases shapes 
+
+--- dla a1e1h1r1s1t1 : 3 anagramy 
+earths haters hearts 
+
+--- dla a1e1h1r1s1w1 : 3 anagramy 
+hawser rewash washer 
+
+--- dla a1e1h1r1s2 : 3 anagramy 
+rashes shares shears 
+
+--- dla a1e1h1r1t1y1 : 2 anagramy 
+earthy hearty 
+
+--- dla a1e1h1r1t2 : 2 anagramy 
+threat hatter 
+
+--- dla a1e1h1r2s1 : 2 anagramy 
+rasher sharer 
+
+--- dla a1e1h2s1t1 : 2 anagramy 
+heaths sheath 
+
+--- dla a1e1i1l1n1s1 : 2 anagramy 
+aliens saline 
+
+--- dla a1e1i1l1s2 : 2 anagramy 
+aisles lassie 
+
+--- dla a1e1i1m1n1r1 : 3 anagramy 
+airmen marine remain 
+
+--- dla a1e1i1n1p1t1 : 2 anagramy 
+pantie patine 
+
+--- dla a1e1i1n1r1s1 : 2 anagramy 
+arisen sarnie 
+
+--- dla a1e1i1n1r1t1 : 2 anagramy 
+retain retina 
+
+--- dla a1e1i1n1r1v1 : 3 anagramy 
+naiver ravine vainer 
+
+--- dla a1e1i1n2s1 : 2 anagramy 
+insane sienna 
+
+--- dla a1e1i1p1r1s1 : 3 anagramy 
+aspire praise spirea 
+
+--- dla a1e1i1p1r2 : 2 anagramy 
+rapier repair 
+
+--- dla a1e1i1r1s1t1 : 2 anagramy 
+satire striae 
+
+--- dla a1e1i1r1s2 : 2 anagramy 
+arises raises 
+
+--- dla a1e1i1r1v1w1 : 2 anagramy 
+waiver wavier 
+
+--- dla a1e1i1r2s1 : 2 anagramy 
+raiser sierra 
+
+--- dla a1e1k1l1n1r1 : 2 anagramy 
+lanker rankle 
+
+--- dla a1e1k1m1r1s1 : 2 anagramy 
+makers masker 
+
+--- dla a1e1k1m1r2 : 2 anagramy 
+marker remark 
+
+--- dla a1e1k1n1s2 : 2 anagramy 
+snakes sneaks 
+
+--- dla a1e1k1q1s1u1 : 2 anagramy 
+quakes squeak 
+
+--- dla a1e1k1r1s1t1 : 3 anagramy 
+skater streak takers 
+
+--- dla a1e1k1s2t1 : 3 anagramy 
+skates stakes steaks 
+
+--- dla a1e1l1m1n1t1 : 4 anagramy 
+lament mantel mantle mental 
+
+--- dla a1e1l1m1n1y1 : 3 anagramy 
+laymen meanly namely 
+
+--- dla a1e1l1m1p1s1 : 2 anagramy 
+maples sample 
+
+--- dla a1e1l1m1r1s1 : 2 anagramy 
+lamers realms 
+
+--- dla a1e1l1m1s1t1 : 2 anagramy 
+lamest metals 
+
+--- dla a1e1l1n1p1s1 : 2 anagramy 
+planes panels 
+
+--- dla a1e1l1n1p1t1 : 2 anagramy 
+planet platen 
+
+--- dla a1e1l1n1r1t1 : 2 anagramy 
+antler rental 
+
+--- dla a1e1l1n1r1u1 : 2 anagramy 
+unreal neural 
+
+--- dla a1e1l1n1t2 : 2 anagramy 
+latent talent 
+
+--- dla a1e1l1p1r1y1 : 4 anagramy 
+parley pearly player replay 
+
+--- dla a1e1l1p1s1t1 : 6 anagramy 
+palest plates pleats pastel petals staple 
+
+--- dla a1e1l1p1s2 : 3 anagramy 
+lapses passel sepals 
+
+--- dla a1e1l1p2t1 : 2 anagramy 
+applet lappet 
+
+--- dla a1e1l1q1s1u1 : 2 anagramy 
+equals squeal 
+
+--- dla a1e1l1r1s1t1 : 4 anagramy 
+alerts alters salter staler 
+
+--- dla a1e1l1r1s1v1 : 4 anagramy 
+ravels salver slaver velars 
+
+--- dla a1e1l1r1s1y1 : 3 anagramy 
+layers relays slayer 
+
+--- dla a1e1l1r1t1v1 : 2 anagramy 
+travel varlet 
+
+--- dla a1e1l1r1t2 : 2 anagramy 
+latter rattle 
+
+--- dla a1e1l1s1t1v1 : 2 anagramy 
+valets vestal 
+
+--- dla a1e1l1s1t1x1 : 2 anagramy 
+exalts laxest 
+
+--- dla a1e1l1s1t2 : 2 anagramy 
+lattes latest 
+
+--- dla a1e1l1s2t1 : 4 anagramy 
+slates stales steals tassel 
+
+--- dla a1e1l1s2v1 : 2 anagramy 
+salves slaves 
+
+--- dla a1e1l2r1u1 : 2 anagramy 
+allure laurel 
+
+--- dla a1e1m1n1o1r1 : 2 anagramy 
+moaner enamor 
+
+--- dla a1e1m1n1s1t1 : 2 anagramy 
+stamen mantes 
+
+--- dla a1e1m1p2r1 : 2 anagramy 
+mapper pamper 
+
+--- dla a1e1m1r1s1t1 : 4 anagramy 
+master stream tamers maters 
+
+--- dla a1e1m1r1s2 : 2 anagramy 
+masers smears 
+
+--- dla a1e1m1r2w1 : 2 anagramy 
+rewarm warmer 
+
+--- dla a1e1m1s1t1y1 : 2 anagramy 
+mateys steamy 
+
+--- dla a1e1m1s1t2 : 2 anagramy 
+mattes tamest 
+
+--- dla a1e1m1s2u1 : 2 anagramy 
+amuses assume 
+
+--- dla a1e1n1o1r1s1 : 2 anagramy 
+reason senora 
+
+--- dla a1e1n1p1r1t1 : 2 anagramy 
+entrap parent 
+
+--- dla a1e1n1r2t1 : 2 anagramy 
+errant ranter 
+
+--- dla a1e1n1s2t1 : 2 anagramy 
+assent sanest 
+
+--- dla a1e1n1t2u1 : 2 anagramy 
+attune tauten 
+
+--- dla a1e1p1r1s1t1 : 3 anagramy 
+prates repast tapers 
+
+--- dla a1e1p1r1s1y1 : 2 anagramy 
+payers repays 
+
+--- dla a1e1p1r1s2 : 5 anagramy 
+passer parses spares sparse spears 
+
+--- dla a1e1p1r2s1 : 4 anagramy 
+parers parser rapers sparer 
+
+--- dla a1e1p1s2t1 : 2 anagramy 
+pastes spates 
+
+--- dla a1e1p2r1s1 : 2 anagramy 
+papers sapper 
+
+--- dla a1e1p2r1y1 : 2 anagramy 
+papery prepay 
+
+--- dla a1e1r1s1t1v1 : 3 anagramy 
+averts starve vaster 
+
+--- dla a1e1r1s1t1w1 : 3 anagramy 
+rawest waster waters 
+
+--- dla a1e1r1s1t1x1 : 2 anagramy 
+extras taxers 
+
+--- dla a1e1r1s1t2 : 5 anagramy 
+stater treats taster tetras taters 
+
+--- dla a1e1r1s2t1 : 3 anagramy 
+assert asters stares 
+
+--- dla a1e1r1s2w1 : 2 anagramy 
+wrasse swears 
+
+--- dla a1e1r2s1t1 : 5 anagramy 
+arrest rarest raster raters starer 
+
+--- dla a1e1r2t2 : 2 anagramy 
+ratter tarter 
+
+--- dla a1e1s1t2u1 : 2 anagramy 
+astute statue 
+
+--- dla a1e1s2t1w1 : 2 anagramy 
+sweats wastes 
+
+--- dla a1e1s2t2 : 2 anagramy 
+states tastes 
+
+--- dla a1e1s4 : 2 anagramy 
+assess sasses 
+
+--- dla a1e2g1l1t1 : 2 anagramy 
+eaglet legate 
+
+--- dla a1e2g1m1n1 : 2 anagramy 
+menage manege 
+
+--- dla a1e2g1n1r1 : 2 anagramy 
+enrage genera 
+
+--- dla a1e2g1r1s1 : 2 anagramy 
+agrees grease 
+
+--- dla a1e2h1r1t1 : 2 anagramy 
+heater reheat 
+
+--- dla a1e2h1r2 : 2 anagramy 
+hearer rehear 
+
+--- dla a1e2h1s1v1 : 2 anagramy 
+heaves sheave 
+
+--- dla a1e2i1r1s1 : 2 anagramy 
+aeries easier 
+
+--- dla a1e2l1p1r1 : 2 anagramy 
+leaper repeal 
+
+--- dla a1e2l1p1s1 : 3 anagramy 
+elapse asleep please 
+
+--- dla a1e2l1r1s1 : 4 anagramy 
+leaser resale reseal sealer 
+
+--- dla a1e2l1r1v1 : 2 anagramy 
+leaver reveal 
+
+--- dla a1e2l1s1t1 : 2 anagramy 
+elates teasel 
+
+--- dla a1e2l1s2 : 2 anagramy 
+easels leases 
+
+--- dla a1e2m1n1r1 : 2 anagramy 
+meaner rename 
+
+--- dla a1e2m1n1s1 : 2 anagramy 
+enemas seamen 
+
+--- dla a1e2n1r2 : 2 anagramy 
+earner nearer 
+
+--- dla a1e2n1s1t1 : 2 anagramy 
+senate sateen 
+
+--- dla a1e2r1s1t1 : 2 anagramy 
+eaters teaser 
+
+--- dla a1f1l1s1t1u1 : 2 anagramy 
+faults flatus 
+
+--- dla a1g1i1l1m1n1 : 2 anagramy 
+laming malign 
+
+--- dla a1g1i1l1n1s1 : 3 anagramy 
+aligns lasing signal 
+
+--- dla a1g1i1m1n1r1 : 2 anagramy 
+arming margin 
+
+--- dla a1g1i1m1n1t1 : 2 anagramy 
+mating taming 
+
+--- dla a1g1i1n1p1r1 : 2 anagramy 
+paring raping 
+
+--- dla a1g1i1n1r1s1 : 2 anagramy 
+arsing grains 
+
+--- dla a1g1i1n1r1t1 : 3 anagramy 
+gratin rating taring 
+
+--- dla a1g1i1n1s1t1 : 2 anagramy 
+giants sating 
+
+--- dla a1g1i1n2w1 : 2 anagramy 
+awning waning 
+
+--- dla a1g1n1o1r1s1 : 3 anagramy 
+organs groans sarong 
+
+--- dla a1g1n1p1r1s1 : 2 anagramy 
+prangs sprang 
+
+--- dla a1g1o1r1s1t1 : 3 anagramy 
+argots groats gators 
+
+--- dla a1g2i1n1p1 : 2 anagramy 
+gaping paging 
+
+--- dla a1h1i1l1p1s1 : 2 anagramy 
+phials palish 
+
+--- dla a1h1n1s1t1u1 : 2 anagramy 
+haunts sunhat 
+
+--- dla a1h1o1p1s1t1 : 2 anagramy 
+pathos potash 
+
+--- dla a1i1l1n1p1s1 : 3 anagramy 
+lapins plains spinal 
+
+--- dla a1i1l1n1p1t1 : 2 anagramy 
+plaint pliant 
+
+--- dla a1i1l1r1s1t1 : 2 anagramy 
+trails trials 
+
+--- dla a1i1m1n1s1t1 : 2 anagramy 
+mantis matins 
+
+--- dla a1i1m1p1r1t1 : 2 anagramy 
+armpit impart 
+
+--- dla a1i1n1r1s1t1 : 2 anagramy 
+strain trains 
+
+--- dla a1i1n1s1t1y1 : 2 anagramy 
+sanity satiny 
+
+--- dla a1i1n1s1t2 : 2 anagramy 
+taints titans 
+
+--- dla a1i1n1s2t1 : 2 anagramy 
+saints stains 
+
+--- dla a1i1n2o1t1 : 2 anagramy 
+anoint nation 
+
+--- dla a1i1o1p1s1t1 : 2 anagramy 
+patois patios 
+
+--- dla a1i1o1r1s1t1 : 2 anagramy 
+ratios satori 
+
+--- dla a1i1p1r1s1t1 : 2 anagramy 
+rapist tapirs 
+
+--- dla a1i1r1s1t2 : 4 anagramy 
+artist strait strati traits 
+
+--- dla a1i1r1s2t1 : 2 anagramy 
+sitars stairs 
+
+--- dla a1i1s3t1 : 2 anagramy 
+assist stasis 
+
+--- dla a1j1n1s1t1u1 : 2 anagramy 
+jaunts juntas 
+
+--- dla a1l1m1o1r1s1 : 2 anagramy 
+molars morals 
+
+--- dla a1l1m1t1u2 : 2 anagramy 
+umlaut mutual 
+
+--- dla a1l1o1p1r1t1 : 2 anagramy 
+portal patrol 
+
+--- dla a1l1o1t1u1y1 : 2 anagramy 
+outlay layout 
+
+--- dla a1l1p1r1t1y1 : 3 anagramy 
+paltry partly raptly 
+
+--- dla a1l1r1t2y1 : 2 anagramy 
+rattly tartly 
+
+--- dla a1l2o1s1t1 : 2 anagramy 
+allots atolls 
+
+--- dla a1l2o1s1w1 : 2 anagramy 
+allows sallow 
+
+--- dla a1m1n1o1r1s1 : 2 anagramy 
+manors ransom 
+
+--- dla a1m1o1r1s1y1 : 2 anagramy 
+morays mayors 
+
+--- dla a1n1o1p1r1s1 : 2 anagramy 
+aprons parson 
+
+--- dla a1n1o1p1r1t1 : 2 anagramy 
+patron tarpon 
+
+--- dla a1n1r1u1w1y1 : 2 anagramy 
+unwary runway 
+
+--- dla a1o1p1r2t1 : 2 anagramy 
+parrot raptor 
+
+--- dla a1o1r1s2t1 : 2 anagramy 
+assort roasts 
+
+--- dla a1o1s2t2 : 2 anagramy 
+stoats toasts 
+
+--- dla a1p1r1s2t1 : 2 anagramy 
+sprats straps 
+
+--- dla a1r1s2t1y1 : 2 anagramy 
+satyrs strays 
+
+--- dla a2b1d1o1r1 : 2 anagramy 
+abroad aboard 
+
+--- dla a2b1l1s1t1 : 2 anagramy 
+basalt tablas 
+
+--- dla a2b1m1n1t1 : 2 anagramy 
+bantam batman 
+
+--- dla a2c1e1t1v1 : 2 anagramy 
+caveat vacate 
+
+--- dla a2c1i1m1n1 : 2 anagramy 
+caiman maniac 
+
+--- dla a2c1l1r1s1 : 2 anagramy 
+rascal scalar 
+
+--- dla a2c1l1s1u1 : 2 anagramy 
+casual causal 
+
+--- dla a2d1m1r1s1 : 2 anagramy 
+madras dramas 
+
+--- dla a2f2i1r1 : 2 anagramy 
+affair raffia 
+
+--- dla a2i1l1m1n1 : 3 anagramy 
+animal lamina manila 
+
+--- dla a2i1l1r1t1 : 2 anagramy 
+atrial lariat 
+
+--- dla a2i1l1s1v1 : 2 anagramy 
+avails saliva 
+
+--- dla a2i1m1n1r1 : 2 anagramy 
+airman marina 
+
+--- dla a2i1n1p1t1 : 2 anagramy 
+patina pinata 
+
+--- dla a2l1m1n1u1 : 2 anagramy 
+alumna manual 
+
+--- dla a2l1r1s1t1 : 3 anagramy 
+altars astral tarsal 
+
+--- dla a2n1r1t2 : 3 anagramy 
+rattan tantra tartan 
+
+--- dla b1c1i1s1t1u1 : 2 anagramy 
+cubist cubits 
+
+--- dla b1d1e1g1l1u1 : 2 anagramy 
+bugled bulged 
+
+--- dla b1d1e1g1s1u1 : 2 anagramy 
+budges debugs 
+
+--- dla b1d1e1i1n1r1 : 3 anagramy 
+inbred binder rebind 
+
+--- dla b1d1e1i1r1s1 : 3 anagramy 
+brides rebids debris 
+
+--- dla b1d1e1i1s1t1 : 3 anagramy 
+bedsit bidets debits 
+
+--- dla b1d1e1k1n1u1 : 2 anagramy 
+bunked debunk 
+
+--- dla b1d1e1n1r1u1 : 2 anagramy 
+burned burden 
+
+--- dla b1d1e1s1t1u1 : 2 anagramy 
+busted debuts 
+
+--- dla b1d1e2i1l1 : 2 anagramy 
+edible belied 
+
+--- dla b1d2e1i1r1 : 2 anagramy 
+bidder birded 
+
+--- dla b1e1f1i1r1s1 : 2 anagramy 
+briefs fibers 
+
+--- dla b1e1f2r1u1 : 2 anagramy 
+buffer rebuff 
+
+--- dla b1e1g1i1n1s1 : 3 anagramy 
+begins beings binges 
+
+--- dla b1e1g1l1r1u1 : 2 anagramy 
+bugler burgle 
+
+--- dla b1e1g1l1s1u1 : 2 anagramy 
+bugles bulges 
+
+--- dla b1e1g1o2r1 : 2 anagramy 
+booger goober 
+
+--- dla b1e1i1l1o1r1 : 2 anagramy 
+boiler reboil 
+
+--- dla b1e1i1m1r1t1 : 2 anagramy 
+timber timbre 
+
+--- dla b1e1i1r1s1t1 : 3 anagramy 
+bestir biters tribes 
+
+--- dla b1e1i1r1s1u1 : 4 anagramy 
+bruise buries busier rubies 
+
+--- dla b1e1l1m1r1u1 : 2 anagramy 
+lumber rumble 
+
+--- dla b1e1l1o1r1w1 : 2 anagramy 
+bowler blower 
+
+--- dla b1e1l1o1s1u1 : 2 anagramy 
+blouse boules 
+
+--- dla b1e1l1o1s1w1 : 2 anagramy 
+elbows bowels 
+
+--- dla b1e1l1s1t1u1 : 5 anagramy 
+bluest bluets bustle sublet subtle 
+
+--- dla b1e1m1o1s2 : 2 anagramy 
+emboss besoms 
+
+--- dla b1e1o1r1s1t1 : 2 anagramy 
+sorbet strobe 
+
+--- dla b1e1o1r1s1w1 : 2 anagramy 
+browse bowers 
+
+--- dla b1e1o1s3 : 2 anagramy 
+obsess bosses 
+
+--- dla b1e1r1s1t1u1 : 4 anagramy 
+brutes buster rebuts tubers 
+
+--- dla b1e2l1p1s1 : 2 anagramy 
+bleeps plebes 
+
+--- dla b1g1i1l1n1u1 : 2 anagramy 
+bluing lubing 
+
+--- dla b1g1i1n1o1r1 : 2 anagramy 
+boring robing 
+
+--- dla b1h1o1r1s1t1 : 2 anagramy 
+throbs broths 
+
+--- dla b1i1o1r1s1t1 : 2 anagramy 
+orbits bistro 
+
+--- dla b1o1r1s1t1u1 : 2 anagramy 
+robust turbos 
+
+--- dla b2d1e1i1r1 : 2 anagramy 
+bribed ribbed 
+
+--- dla b2d1e1m1o1 : 2 anagramy 
+bombed mobbed 
+
+--- dla b2d1e1r1u1 : 2 anagramy 
+rubbed dubber 
+
+--- dla b2e1i1r2 : 2 anagramy 
+briber ribber 
+
+--- dla b2e1l1p1y1 : 2 anagramy 
+pebbly plebby 
+
+--- dla b2e1l1r1u1 : 3 anagramy 
+burble lubber rubble 
+
+--- dla c1d1e1h1k1o1 : 2 anagramy 
+hocked choked 
+
+--- dla c1d1e1i1k1r1 : 2 anagramy 
+ricked dicker 
+
+--- dla c1d1e1i1l1o1 : 2 anagramy 
+coiled docile 
+
+--- dla c1d1e1i1r1t1 : 2 anagramy 
+credit direct 
+
+--- dla c1d1e1k1o1r1 : 3 anagramy 
+corked rocked docker 
+
+--- dla c1d1e1l1r1u1 : 2 anagramy 
+curled curdle 
+
+--- dla c1d1e1n1o1s1 : 2 anagramy 
+consed second 
+
+--- dla c1d1e1o1r1s1 : 4 anagramy 
+credos coders scored decors 
+
+--- dla c1d1e2r1s1 : 3 anagramy 
+creeds screed ceders 
+
+--- dla c1d1e2s1u1 : 3 anagramy 
+educes seduce deuces 
+
+--- dla c1d1e3r1 : 2 anagramy 
+recede decree 
+
+--- dla c1d1i1p1s1u1 : 2 anagramy 
+cupids cuspid 
+
+--- dla c1d1n1o2r1 : 2 anagramy 
+condor cordon 
+
+--- dla c1d2e2i1 : 2 anagramy 
+decide deiced 
+
+--- dla c1d2e2u1 : 2 anagramy 
+educed deduce 
+
+--- dla c1e1f1h1i1s1 : 2 anagramy 
+fiches chiefs 
+
+--- dla c1e1f1o1r1s1 : 2 anagramy 
+fresco forces 
+
+--- dla c1e1h1i1n1s1 : 3 anagramy 
+inches niches chines 
+
+--- dla c1e1h1i1o1r1 : 2 anagramy 
+heroic coheir 
+
+--- dla c1e1h1i1s1t1 : 2 anagramy 
+ethics itches 
+
+--- dla c1e1h1s1t1y1 : 2 anagramy 
+scythe chesty 
+
+--- dla c1e1i1k1l1n1 : 2 anagramy 
+nickel nickle 
+
+--- dla c1e1i1l1r1s1 : 2 anagramy 
+relics slicer 
+
+--- dla c1e1i1m1r1u1 : 2 anagramy 
+cerium uremic 
+
+--- dla c1e1i1m1s1u1 : 2 anagramy 
+miscue cesium 
+
+--- dla c1e1i1n1p1r1 : 2 anagramy 
+pincer prince 
+
+--- dla c1e1i1n1s1t1 : 3 anagramy 
+insect incest nicest 
+
+--- dla c1e1i1p1r1s1 : 3 anagramy 
+cripes prices precis 
+
+--- dla c1e1i1r1s1u1 : 2 anagramy 
+cruise curies 
+
+--- dla c1e1i1r2s1 : 2 anagramy 
+criers ricers 
+
+--- dla c1e1i1s1t1v1 : 2 anagramy 
+evicts civets 
+
+--- dla c1e1i2s1t1 : 2 anagramy 
+iciest cities 
+
+--- dla c1e1k1n1o1r1 : 2 anagramy 
+conker reckon 
+
+--- dla c1e1k1o1r2 : 2 anagramy 
+corker rocker 
+
+--- dla c1e1k1o2r1 : 2 anagramy 
+cooker recook 
+
+--- dla c1e1n1o1r1s1 : 3 anagramy 
+crones recons censor 
+
+--- dla c1e1n1o1s2 : 2 anagramy 
+conses scones 
+
+--- dla c1e1o1p1s2 : 2 anagramy 
+copses scopes 
+
+--- dla c1e1o1r1s1t1 : 4 anagramy 
+escort corset rectos sector 
+
+--- dla c1e1o1r1s1u1 : 2 anagramy 
+course source 
+
+--- dla c1e1o1r1s1w1 : 2 anagramy 
+escrow cowers 
+
+--- dla c1e1o1r1t1v1 : 2 anagramy 
+covert vector 
+
+--- dla c1e1o1r2s1 : 2 anagramy 
+corers scorer 
+
+--- dla c1e1r1s1t1u1 : 3 anagramy 
+eructs cruets truces 
+
+--- dla c1e1r1s2u1 : 2 anagramy 
+cruses curses 
+
+--- dla c1e1r2s1u1 : 2 anagramy 
+curers recurs 
+
+--- dla c1e1s1t1u1y1 : 2 anagramy 
+cutesy cuteys 
+
+--- dla c1e2h1o1r1 : 2 anagramy 
+cohere reecho 
+
+--- dla c1e2h1p1s1 : 2 anagramy 
+speech cheeps 
+
+--- dla c1e2i1p1r1 : 2 anagramy 
+pierce recipe 
+
+--- dla c1e2i1p1s1 : 2 anagramy 
+pieces specie 
+
+--- dla c1e2l1s1t1 : 2 anagramy 
+elects select 
+
+--- dla c1e2n1r1s1 : 2 anagramy 
+screen censer 
+
+--- dla c1e2n1r1t1 : 2 anagramy 
+recent center 
+
+--- dla c1e2p1r1s1 : 2 anagramy 
+creeps crepes 
+
+--- dla c1e2p1t1x1 : 2 anagramy 
+expect except 
+
+--- dla c1e2r1s1t1 : 2 anagramy 
+erects secret 
+
+--- dla c1e2r1s1u1 : 2 anagramy 
+rescue secure 
+
+--- dla c1e2r1s2 : 2 anagramy 
+recess screes 
+
+--- dla c1g1i1m1n1o1 : 2 anagramy 
+coming gnomic 
+
+--- dla c1h1i1k1s1t1 : 2 anagramy 
+kitsch shtick 
+
+--- dla c1h1i1m1r1s1 : 2 anagramy 
+smirch chrism 
+
+--- dla c1i1m1p1r1s1 : 2 anagramy 
+crimps scrimp 
+
+--- dla c1i1n1o1s1t1 : 2 anagramy 
+tocsin tonics 
+
+--- dla c1i1o1p1s1t1 : 3 anagramy 
+optics picots topics 
+
+--- dla c1i1p1r1s2 : 2 anagramy 
+crisps scrips 
+
+--- dla c1i1r1s1t1u1 : 2 anagramy 
+rustic citrus 
+
+--- dla c1k1r1s1t1u1 : 2 anagramy 
+struck trucks 
+
+--- dla c1l1m1s1u1y1 : 2 anagramy 
+clumsy muscly 
+
+--- dla c1l1o1s1t1u1 : 2 anagramy 
+clouts locust 
+
+--- dla c1r1s1t1u1y1 : 2 anagramy 
+crusty curtsy 
+
+--- dla c2e1h1i1l1 : 2 anagramy 
+chicle cliche 
+
+--- dla c2e1h1i1o1 : 2 anagramy 
+echoic choice 
+
+--- dla c2e1i1l1r1 : 2 anagramy 
+cleric circle 
+
+--- dla c2i1m1o1s1 : 2 anagramy 
+comics cosmic 
+
+--- dla c2i2r1t1 : 2 anagramy 
+critic citric 
+
+--- dla c2o1r1s1u1 : 3 anagramy 
+occurs crocus succor 
+
+--- dla d1e1f1g1i1t1 : 2 anagramy 
+fidget gifted 
+
+--- dla d1e1f1i1k1n1 : 2 anagramy 
+finked knifed 
+
+--- dla d1e1f1i1n1r1 : 2 anagramy 
+finder friend 
+
+--- dla d1e1f1l1n1o1 : 2 anagramy 
+enfold fondle 
+
+--- dla d1e1f1l1o1r1 : 2 anagramy 
+folder refold 
+
+--- dla d1e1f1l1o1w1 : 3 anagramy 
+fowled flowed wolfed 
+
+--- dla d1e1f1m1o1r1 : 2 anagramy 
+formed deform 
+
+--- dla d1e1f2i1r1 : 2 anagramy 
+riffed differ 
+
+--- dla d1e1f2r1u1 : 2 anagramy 
+ruffed duffer 
+
+--- dla d1e1g1i1l1r1 : 3 anagramy 
+gilder glider girdle 
+
+--- dla d1e1g1i1n1s1 : 4 anagramy 
+signed singed deigns design 
+
+--- dla d1e1g1i1n2 : 2 anagramy 
+ending ginned 
+
+--- dla d1e1g1i1r1s1 : 2 anagramy 
+ridges dirges 
+
+--- dla d1e1g1k1l1u1 : 2 anagramy 
+kludge kluged 
+
+--- dla d1e1g1l1n1o1 : 3 anagramy 
+golden longed dongle 
+
+--- dla d1e1g1l1n1u1 : 2 anagramy 
+gulden lunged 
+
+--- dla d1e1g1o1r1u1 : 3 anagramy 
+gourde rouged drogue 
+
+--- dla d1e1g2i1r1 : 2 anagramy 
+rigged digger 
+
+--- dla d1e1g2l1o1 : 2 anagramy 
+logged dogleg 
+
+--- dla d1e1g2r1u1 : 2 anagramy 
+grudge rugged 
+
+--- dla d1e1h1i1s2 : 2 anagramy 
+hissed dishes 
+
+--- dla d1e1h1i1t1w1 : 2 anagramy 
+withed whited 
+
+--- dla d1e1h1l1r1u1 : 2 anagramy 
+hurled hurdle 
+
+--- dla d1e1h1o1r1s1 : 3 anagramy 
+horsed hordes shored 
+
+--- dla d1e1h1o2p1 : 2 anagramy 
+hooped poohed 
+
+--- dla d1e1i1k1l1n1 : 3 anagramy 
+kilned kindle linked 
+
+--- dla d1e1i1k1n1r1 : 2 anagramy 
+kinder dinker 
+
+--- dla d1e1i1l1m1p1 : 2 anagramy 
+limped dimple 
+
+--- dla d1e1i1l1m1s1 : 2 anagramy 
+misled smiled 
+
+--- dla d1e1i1l1n1t1 : 2 anagramy 
+linted delint 
+
+--- dla d1e1i1l1o1s1 : 2 anagramy 
+oldies soiled 
+
+--- dla d1e1i1l1p1s1 : 2 anagramy 
+lisped dispel 
+
+--- dla d1e1i1l1r1s1 : 2 anagramy 
+idlers slider 
+
+--- dla d1e1i1l1s1t1 : 4 anagramy 
+idlest listed silted tildes 
+
+--- dla d1e1i1l1s2 : 2 anagramy 
+slides sidles 
+
+--- dla d1e1i1l1t2 : 2 anagramy 
+tilted titled 
+
+--- dla d1e1i1l2t1 : 2 anagramy 
+lilted tilled 
+
+--- dla d1e1i1m1n1r1 : 2 anagramy 
+minder remind 
+
+--- dla d1e1i1m1s1t1 : 2 anagramy 
+misted demist 
+
+--- dla d1e1i1m2r1 : 2 anagramy 
+rimmed dimmer 
+
+--- dla d1e1i1n1o1p1 : 2 anagramy 
+opined ponied 
+
+--- dla d1e1i1n1o1s1 : 2 anagramy 
+onside noised 
+
+--- dla d1e1i1n1r1s1 : 3 anagramy 
+rinsed snider diners 
+
+--- dla d1e1i1n1r1u1 : 2 anagramy 
+inured ruined 
+
+--- dla d1e1i1n1r1w1 : 2 anagramy 
+rewind winder 
+
+--- dla d1e1i1n1t1u1 : 2 anagramy 
+united untied 
+
+--- dla d1e1i1n2t1 : 4 anagramy 
+indent intend tinned dentin 
+
+--- dla d1e1i1o1p1r1 : 2 anagramy 
+period dopier 
+
+--- dla d1e1i1o1r1t1 : 2 anagramy 
+editor rioted 
+
+--- dla d1e1i1p1r1s1 : 2 anagramy 
+prides spider 
+
+--- dla d1e1i1p2r1 : 2 anagramy 
+ripped dipper 
+
+--- dla d1e1i1r1s1t1 : 3 anagramy 
+stride direst driest 
+
+--- dla d1e1i1r1s1v1 : 2 anagramy 
+divers drives 
+
+--- dla d1e1i1r2s1 : 2 anagramy 
+riders driers 
+
+--- dla d1e1i1s1t1u1 : 2 anagramy 
+suited duties 
+
+--- dla d1e1i1s2t1 : 2 anagramy 
+desist deists 
+
+--- dla d1e1i1s2u1 : 2 anagramy 
+issued disuse 
+
+--- dla d1e1i2n1s1 : 2 anagramy 
+inside indies 
+
+--- dla d1e1l1m1o1r1 : 2 anagramy 
+molder remold 
+
+--- dla d1e1l1m1o1s1 : 2 anagramy 
+models seldom 
+
+--- dla d1e1l1m1p1u1 : 2 anagramy 
+lumped plumed 
+
+--- dla d1e1l1o1r1s1 : 2 anagramy 
+resold solder 
+
+--- dla d1e1l1o1r1u1 : 2 anagramy 
+loured louder 
+
+--- dla d1e1l1o1s1w1 : 2 anagramy 
+slowed dowels 
+
+--- dla d1e1l1o2p1 : 3 anagramy 
+looped pooled poodle 
+
+--- dla d1e1l1o2s1 : 3 anagramy 
+oodles loosed soloed 
+
+--- dla d1e1l1o2t1 : 2 anagramy 
+looted tooled 
+
+--- dla d1e1m1o2r1 : 2 anagramy 
+moored roomed 
+
+--- dla d1e1n1o1r1s1 : 2 anagramy 
+snored drones 
+
+--- dla d1e1n1o1r1w1 : 2 anagramy 
+downer wonder 
+
+--- dla d1e1n1o1s1w1 : 2 anagramy 
+endows snowed 
+
+--- dla d1e1n1r1s1u1 : 2 anagramy 
+nursed sunder 
+
+--- dla d1e1o1p1r1s1 : 2 anagramy 
+spored dopers 
+
+--- dla d1e1o1p1r1t1 : 2 anagramy 
+ported deport 
+
+--- dla d1e1o1p1s1t1 : 3 anagramy 
+posted depots despot 
+
+--- dla d1e1o1p1s1u1 : 2 anagramy 
+pseudo souped 
+
+--- dla d1e1o1r1s1t1 : 4 anagramy 
+stored strode sorted doters 
+
+--- dla d1e1o1r1s1u1 : 2 anagramy 
+roused soured 
+
+--- dla d1e1o1r1s1w1 : 3 anagramy 
+drowse dowser dowers 
+
+--- dla d1e1o1r1t1u1 : 3 anagramy 
+routed toured detour 
+
+--- dla d1e1o1r2u1 : 2 anagramy 
+ordure dourer 
+
+--- dla d1e1o1s2u1 : 2 anagramy 
+soused douses 
+
+--- dla d1e1p1r1s1u1 : 4 anagramy 
+prudes pursed dupers drupes 
+
+--- dla d1e1r1s1t1u1 : 3 anagramy 
+rusted rudest duster 
+
+--- dla d1e2f2r1 : 2 anagramy 
+reffed deffer 
+
+--- dla d1e2g1l1s1 : 2 anagramy 
+ledges sledge 
+
+--- dla d1e2i1l1r1 : 2 anagramy 
+lieder relied 
+
+--- dla d1e2i1l1s1 : 2 anagramy 
+elides diesel 
+
+--- dla d1e2i1l1v1 : 2 anagramy 
+levied veiled 
+
+--- dla d1e2i1n1r1 : 2 anagramy 
+reined denier 
+
+--- dla d1e2i1n1s1 : 2 anagramy 
+seined denies 
+
+--- dla d1e2i1n1v1 : 3 anagramy 
+envied endive veined 
+
+--- dla d1e2i1r1s1 : 3 anagramy 
+eiders reside desire 
+
+--- dla d1e2i1r1t1 : 4 anagramy 
+reedit retied tiered dieter 
+
+--- dla d1e2i1s1v1 : 2 anagramy 
+sieved devise 
+
+--- dla d1e2l1p1y1 : 2 anagramy 
+deeply yelped 
+
+--- dla d1e2l1r1w1 : 2 anagramy 
+lewder welder 
+
+--- dla d1e2m1o1t1 : 2 anagramy 
+emoted demote 
+
+--- dla d1e2m1p1r1 : 2 anagramy 
+permed premed 
+
+--- dla d1e2n1r1s1 : 3 anagramy 
+resend sender denser 
+
+--- dla d1e2n1r1t1 : 2 anagramy 
+rented tender 
+
+--- dla d1e2n1s1t1 : 2 anagramy 
+nested tensed 
+
+--- dla d1e2n1s1u1 : 2 anagramy 
+ensued endues 
+
+--- dla d1e2n1t2 : 2 anagramy 
+netted tented 
+
+--- dla d1e2o1r1s1 : 2 anagramy 
+erodes redoes 
+
+--- dla d1e2o1t1v1 : 2 anagramy 
+devote vetoed 
+
+--- dla d1e2r1s1t1 : 3 anagramy 
+rested desert deters 
+
+--- dla d1e2r1s1v1 : 2 anagramy 
+served versed 
+
+--- dla d1e2s1t1w1 : 2 anagramy 
+stewed tweeds 
+
+--- dla d1e2s1t2 : 2 anagramy 
+tested detest 
+
+--- dla d1e3f1r1 : 2 anagramy 
+feeder reefed 
+
+--- dla d1e3l1r1 : 2 anagramy 
+leered reeled 
+
+--- dla d1e3p1r1 : 2 anagramy 
+peered deeper 
+
+--- dla d1e3r1s1 : 2 anagramy 
+reseed seeder 
+
+--- dla d1g1i1n1o1s1 : 2 anagramy 
+doings dosing 
+
+--- dla d1h1l1o1p1u1 : 2 anagramy 
+uphold holdup 
+
+--- dla d1h1n1o1s1u1 : 2 anagramy 
+unshod hounds 
+
+--- dla d1i1n1p1u1w1 : 2 anagramy 
+upwind windup 
+
+--- dla d1i1n1t1u1y1 : 2 anagramy 
+untidy nudity 
+
+--- dla d1i1o1p1r1t1 : 2 anagramy 
+torpid tripod 
+
+--- dla d1l2o1r1y1 : 2 anagramy 
+lordly drolly 
+
+--- dla d1n1o1r1t1u1 : 2 anagramy 
+untrod rotund 
+
+--- dla d1n1o2r1s1 : 2 anagramy 
+rondos donors 
+
+--- dla d2e1f1o1r1 : 2 anagramy 
+fodder forded 
+
+--- dla d2e1g1i1l1 : 2 anagramy 
+gilded glided 
+
+--- dla d2e1g1i1r1 : 2 anagramy 
+girded ridged 
+
+--- dla d2e1g1n1u1 : 2 anagramy 
+nudged dunged 
+
+--- dla d2e1i1m1n1 : 2 anagramy 
+minded midden 
+
+--- dla d2e1i1o1s1 : 2 anagramy 
+didoes diodes 
+
+--- dla d2e1i1o1v1 : 2 anagramy 
+devoid voided 
+
+--- dla d2e2f1n1 : 2 anagramy 
+fended defend 
+
+--- dla d2e2i1n1 : 2 anagramy 
+indeed denied 
+
+--- dla d2e2i1t1 : 2 anagramy 
+edited dieted 
+
+--- dla d2e2l1m1 : 2 anagramy 
+melded meddle 
+
+--- dla d2e2l1u1 : 3 anagramy 
+eluded delude dueled 
+
+--- dla d2e2m1o1 : 2 anagramy 
+demoed demode 
+
+--- dla d2e2n1p1 : 2 anagramy 
+pended depend 
+
+--- dla d2e2n1t1 : 2 anagramy 
+dented tended 
+
+--- dla d2e2n1u1 : 2 anagramy 
+endued denude 
+
+--- dla d2i1o1r1s1 : 2 anagramy 
+sordid droids 
+
+--- dla d3e1i1l1 : 2 anagramy 
+lidded diddle 
+
+--- dla e1f1g1i1n1r1 : 2 anagramy 
+finger fringe 
+
+--- dla e1f1g1o1r1s1 : 2 anagramy 
+forges gofers 
+
+--- dla e1f1i1l1r1s1 : 4 anagramy 
+filers lifers rifles fliers 
+
+--- dla e1f1i1l1r1t1 : 3 anagramy 
+filter lifter trifle 
+
+--- dla e1f1i1l1s1t1 : 3 anagramy 
+itself fliest stifle 
+
+--- dla e1f1i1l2r1 : 2 anagramy 
+filler refill 
+
+--- dla e1f1i1n1s1t1 : 3 anagramy 
+infest finest feints 
+
+--- dla e1f1i1r1s1t1 : 4 anagramy 
+rifest refits sifter strife 
+
+--- dla e1f1m1o1r2 : 2 anagramy 
+former reform 
+
+--- dla e1f1o1r1s1t1 : 4 anagramy 
+forest foster fortes softer 
+
+--- dla e1g1h1i1n1s1 : 2 anagramy 
+hinges neighs 
+
+--- dla e1g1h1i1n1w1 : 2 anagramy 
+hewing whinge 
+
+--- dla e1g1h1n1r1u1 : 2 anagramy 
+hunger rehung 
+
+--- dla e1g1h2i1t1 : 2 anagramy 
+eighth height 
+
+--- dla e1g1i1l1r1u1 : 2 anagramy 
+uglier gluier 
+
+--- dla e1g1i1n1o1r1 : 2 anagramy 
+ignore region 
+
+--- dla e1g1i1n1r1s1 : 4 anagramy 
+reigns resign signer singer 
+
+--- dla e1g1i1n1r2 : 2 anagramy 
+erring ringer 
+
+--- dla e1g1i1n1s1t1 : 3 anagramy 
+ingest signet tinges 
+
+--- dla e1g1i1n1s2 : 2 anagramy 
+gneiss singes 
+
+--- dla e1g1i1o1s1t1 : 2 anagramy 
+egoist stogie 
+
+--- dla e1g1o1r1s1u1 : 3 anagramy 
+grouse rogues rouges 
+
+--- dla e1g1o1r2w1 : 2 anagramy 
+grower regrow 
+
+--- dla e1g1p1r1s1u1 : 2 anagramy 
+purges spurge 
+
+--- dla e1g1s2t1u1 : 2 anagramy 
+gusset guests 
+
+--- dla e1g2i1n1r1 : 2 anagramy 
+ginger nigger 
+
+--- dla e1g2l1r1u1 : 2 anagramy 
+gurgle lugger 
+
+--- dla e1h1i1k1r1s1 : 3 anagramy 
+hikers shriek shrike 
+
+--- dla e1h1i1n1r1s1 : 2 anagramy 
+shiner shrine 
+
+--- dla e1h1i1p1r1s1 : 2 anagramy 
+perish reship 
+
+--- dla e1h1i1r1s1v1 : 2 anagramy 
+shiver shrive 
+
+--- dla e1h1i1r1t1w1 : 3 anagramy 
+writhe wither whiter 
+
+--- dla e1h1i1r1t2 : 2 anagramy 
+hitter tither 
+
+--- dla e1h1i1s1t1w1 : 2 anagramy 
+withes whites 
+
+--- dla e1h1i1s1t2 : 2 anagramy 
+theist tithes 
+
+--- dla e1h1i1s2t1 : 3 anagramy 
+thesis heists shiest 
+
+--- dla e1h1l1o1s1t1 : 4 anagramy 
+tholes helots hostel hotels 
+
+--- dla e1h1l1o1s1v1 : 2 anagramy 
+hovels shovel 
+
+--- dla e1h1l1s1t1u1 : 2 anagramy 
+hustle sleuth 
+
+--- dla e1h1n1o1r1s1 : 3 anagramy 
+honers herons nosher 
+
+--- dla e1h1n1o1r1t1 : 2 anagramy 
+throne hornet 
+
+--- dla e1h1o1r1s1t1 : 2 anagramy 
+others throes 
+
+--- dla e1h1o1r1s1w1 : 2 anagramy 
+whores shower 
+
+--- dla e1h1o1r1s2 : 2 anagramy 
+horses shores 
+
+--- dla e1h1r1s2u1 : 3 anagramy 
+ushers rhesus rushes 
+
+--- dla e1i1j1n1o1r1 : 2 anagramy 
+joiner rejoin 
+
+--- dla e1i1k1l1n1s1 : 2 anagramy 
+likens silken 
+
+--- dla e1i1k1l1n1w1 : 2 anagramy 
+welkin winkle 
+
+--- dla e1i1k1r1s1t1 : 2 anagramy 
+strike trikes 
+
+--- dla e1i1k1r1s2 : 2 anagramy 
+kisser skiers 
+
+--- dla e1i1l1m1p1r1 : 2 anagramy 
+limper prelim 
+
+--- dla e1i1l1m1p1s1 : 2 anagramy 
+impels simple 
+
+--- dla e1i1l1m1s1y1 : 2 anagramy 
+limeys smiley 
+
+--- dla e1i1l1n1o1s1 : 2 anagramy 
+insole lesion 
+
+--- dla e1i1l1n1p1u1 : 2 anagramy 
+lineup lupine 
+
+--- dla e1i1l1n1s1t1 : 5 anagramy 
+enlist inlets listen silent tinsel 
+
+--- dla e1i1l1n1s1v1 : 2 anagramy 
+livens snivel 
+
+--- dla e1i1l1o1r1t1 : 2 anagramy 
+loiter toiler 
+
+--- dla e1i1l1p1r1s1 : 3 anagramy 
+lisper pliers perils 
+
+--- dla e1i1l1r1s1t1 : 2 anagramy 
+tilers liters 
+
+--- dla e1i1l1r1s1v1 : 3 anagramy 
+livers silver sliver 
+
+--- dla e1i1l1r1v1y1 : 2 anagramy 
+livery verily 
+
+--- dla e1i1l1s1t1v1 : 2 anagramy 
+livest vilest 
+
+--- dla e1i1l1s2t1 : 3 anagramy 
+islets stiles sliest 
+
+--- dla e1i1l2n1t1 : 2 anagramy 
+lentil lintel 
+
+--- dla e1i1l2v1y1 : 3 anagramy 
+evilly lively vilely 
+
+--- dla e1i1m1n1t1u1 : 2 anagramy 
+minuet minute 
+
+--- dla e1i1m1o1r1s1 : 2 anagramy 
+isomer moires 
+
+--- dla e1i1m1p1r1s1 : 2 anagramy 
+primes simper 
+
+--- dla e1i1m1p1r1u1 : 2 anagramy 
+impure umpire 
+
+--- dla e1i1m1r1s1t1 : 5 anagramy 
+merits mister remits timers miters 
+
+--- dla e1i1m1r1s2 : 2 anagramy 
+misers remiss 
+
+--- dla e1i1n1o1p1s1 : 2 anagramy 
+opines ponies 
+
+--- dla e1i1n1o1r1s1 : 2 anagramy 
+nosier senior 
+
+--- dla e1i1n1o1r1t1 : 2 anagramy 
+orient tonier 
+
+--- dla e1i1n1p1r1s1 : 2 anagramy 
+ripens sniper 
+
+--- dla e1i1n1p1r1u1 : 3 anagramy 
+unripe punier purine 
+
+--- dla e1i1n1p1s1t1 : 2 anagramy 
+instep spinet 
+
+--- dla e1i1n1p1s2 : 2 anagramy 
+snipes spines 
+
+--- dla e1i1n1q1s1u1 : 2 anagramy 
+quines sequin 
+
+--- dla e1i1n1r1s1t1 : 2 anagramy 
+insert inters 
+
+--- dla e1i1n1r1s1u1 : 3 anagramy 
+inures insure ursine 
+
+--- dla e1i1n1r1s2 : 3 anagramy 
+rinses resins sirens 
+
+--- dla e1i1n1r1t1w1 : 2 anagramy 
+twiner winter 
+
+--- dla e1i1n1s1t1u1 : 2 anagramy 
+unites unties 
+
+--- dla e1i1n1s2t1 : 2 anagramy 
+insets steins 
+
+--- dla e1i1n1s2w1 : 2 anagramy 
+sinews swines 
+
+--- dla e1i1o1p1s2 : 2 anagramy 
+poises posies 
+
+--- dla e1i1p1q1s1u1 : 2 anagramy 
+equips piques 
+
+--- dla e1i1p1r1s1t1 : 5 anagramy 
+esprit priest ripest sprite stripe 
+
+--- dla e1i1p1r1s2 : 2 anagramy 
+pisser spires 
+
+--- dla e1i1p1r2s1 : 2 anagramy 
+priers sprier 
+
+--- dla e1i1p1s2t1 : 2 anagramy 
+pistes spites 
+
+--- dla e1i1p1s3 : 2 anagramy 
+pisses sepsis 
+
+--- dla e1i1p2r1s1 : 2 anagramy 
+pipers sipper 
+
+--- dla e1i1q1r1s1u1 : 3 anagramy 
+quires squire risque 
+
+--- dla e1i1r1s1t1v1 : 2 anagramy 
+rivets strive 
+
+--- dla e1i1r1s2t1 : 3 anagramy 
+resist resits sister 
+
+--- dla e1i1s2t1u1 : 2 anagramy 
+suites tissue 
+
+--- dla e1i1s2t1x1 : 2 anagramy 
+exists sexist 
+
+--- dla e1k1o1r1s1t1 : 2 anagramy 
+stoker stroke 
+
+--- dla e1k1o1r2w1 : 2 anagramy 
+rework worker 
+
+--- dla e1l1m1n1o1s1 : 3 anagramy 
+lemons melons solemn 
+
+--- dla e1l1m1n1p1u1 : 2 anagramy 
+lumpen plenum 
+
+--- dla e1l1m1o1r1s1 : 2 anagramy 
+morels morsel 
+
+--- dla e1l1m1o1s1t1 : 2 anagramy 
+molest motels 
+
+--- dla e1l1m1r1t1y1 : 2 anagramy 
+myrtle termly 
+
+--- dla e1l1n1o1s1v1 : 2 anagramy 
+novels sloven 
+
+--- dla e1l1o1r1s1v1 : 2 anagramy 
+lovers solver 
+
+--- dla e1l1o1r1s1w1 : 3 anagramy 
+lowers rowels slower 
+
+--- dla e1l1o1r1s2 : 2 anagramy 
+lessor losers 
+
+--- dla e1l1o1r1u1v1 : 2 anagramy 
+velour louver 
+
+--- dla e1l1o1s1t1u1 : 2 anagramy 
+solute tousle 
+
+--- dla e1l1o1s1t1w1 : 3 anagramy 
+owlets lowest towels 
+
+--- dla e1l1o1s1v1w1 : 2 anagramy 
+wolves vowels 
+
+--- dla e1l1o2r1t1 : 2 anagramy 
+looter retool 
+
+--- dla e1l1p1s2u1 : 2 anagramy 
+pluses pulses 
+
+--- dla e1l1r1s1t1u1 : 5 anagramy 
+ulster result rustle sutler luster 
+
+--- dla e1l2o1v1y1 : 2 anagramy 
+lovely volley 
+
+--- dla e1m1o1s1t2 : 2 anagramy 
+motets totems 
+
+--- dla e1m1o1s2u1 : 2 anagramy 
+mousse mouses 
+
+--- dla e1m1o2r1s1 : 2 anagramy 
+morose romeos 
+
+--- dla e1n1o1r1s1t1 : 3 anagramy 
+tenors tensor toners 
+
+--- dla e1n1o1r1s1w1 : 3 anagramy 
+owners resown worsen 
+
+--- dla e1n1o1r1s2 : 3 anagramy 
+snores senors sensor 
+
+--- dla e1n1o1s2t1 : 3 anagramy 
+onsets stenos stones 
+
+--- dla e1n1r1s1t1u1 : 2 anagramy 
+unrest tuners 
+
+--- dla e1n1r2s1u1 : 2 anagramy 
+nurser reruns 
+
+--- dla e1n1r2t1u1 : 2 anagramy 
+return turner 
+
+--- dla e1n2o1s1t1 : 3 anagramy 
+sonnet tenons tonnes 
+
+--- dla e1o1p1r1s1t1 : 3 anagramy 
+presto poster tropes 
+
+--- dla e1o1p1r1s2 : 2 anagramy 
+posers spores 
+
+--- dla e1o1p1r1t1u1 : 2 anagramy 
+pouter troupe 
+
+--- dla e1o1p1r2t1 : 2 anagramy 
+porter report 
+
+--- dla e1o1p1s2u1 : 2 anagramy 
+opuses spouse 
+
+--- dla e1o1q1s1t1u1 : 2 anagramy 
+quotes toques 
+
+--- dla e1o1r1s1t1u1 : 2 anagramy 
+ouster routes 
+
+--- dla e1o1r1s1t1v1 : 3 anagramy 
+strove troves voters 
+
+--- dla e1o1r1s1t2 : 2 anagramy 
+otters tortes 
+
+--- dla e1o1r1s2t1 : 3 anagramy 
+sorest stores tosser 
+
+--- dla e1o1r1s2u1 : 2 anagramy 
+rouses serous 
+
+--- dla e1o1r1s2v1 : 2 anagramy 
+servos versos 
+
+--- dla e1o1r1s2w1 : 2 anagramy 
+resows sowers 
+
+--- dla e1o1r2s1t1 : 4 anagramy 
+resort roster retros sorter 
+
+--- dla e1o1r2t2 : 2 anagramy 
+rotter retort 
+
+--- dla e1p1r1s1t1u1 : 2 anagramy 
+erupts purest 
+
+--- dla e1p1r1s2u1 : 2 anagramy 
+purses supers 
+
+--- dla e1p1s2t1u1 : 2 anagramy 
+upsets setups 
+
+--- dla e1p2r1s1u1 : 2 anagramy 
+uppers supper 
+
+--- dla e1r1s1t1u2 : 2 anagramy 
+uterus suture 
+
+--- dla e1r1s1t2u1 : 2 anagramy 
+utters truest 
+
+--- dla e1r1s2t1u1 : 3 anagramy 
+russet surest estrus 
+
+--- dla e1r1s2t1w1 : 2 anagramy 
+wrests strews 
+
+--- dla e2f1i1l1r1 : 3 anagramy 
+liefer refile relief 
+
+--- dla e2f1l1r1u1 : 2 anagramy 
+ferule refuel 
+
+--- dla e2f1r1s1t1 : 2 anagramy 
+freest fester 
+
+--- dla e2g1i1m1r1 : 2 anagramy 
+regime emigre 
+
+--- dla e2g1i1n1s1 : 2 anagramy 
+genies seeing 
+
+--- dla e2g1n1r1s1 : 2 anagramy 
+genres greens 
+
+--- dla e2g1r1s1t1 : 2 anagramy 
+egrets greets 
+
+--- dla e2h1i1n1r1 : 2 anagramy 
+inhere herein 
+
+--- dla e2h1l1s1v1 : 2 anagramy 
+helves shelve 
+
+--- dla e2h1o1r1t1 : 2 anagramy 
+hereto hetero 
+
+--- dla e2h1p1r1s1 : 2 anagramy 
+herpes sphere 
+
+--- dla e2h1r1s1w1 : 2 anagramy 
+hewers wheres 
+
+--- dla e2h1s2t1 : 2 anagramy 
+theses sheets 
+
+--- dla e2i1l1r1v1 : 4 anagramy 
+eviler levier revile relive 
+
+--- dla e2i1r1v1w1 : 2 anagramy 
+review viewer 
+
+--- dla e2l1m1p1t1 : 2 anagramy 
+pelmet temple 
+
+--- dla e2l1n1s2 : 2 anagramy 
+lenses lessen 
+
+--- dla e2l1n1t2 : 2 anagramy 
+nettle telnet 
+
+--- dla e2l1p1r1s1 : 2 anagramy 
+lepers repels 
+
+--- dla e2l1r1s1v1 : 3 anagramy 
+elvers levers revels 
+
+--- dla e2l1s1t1y1 : 2 anagramy 
+sleety steely 
+
+--- dla e2l1s2t1 : 2 anagramy 
+sleets steels 
+
+--- dla e2l1s2v1 : 2 anagramy 
+selves vessel 
+
+--- dla e2l2r1s1 : 2 anagramy 
+resell seller 
+
+--- dla e2l2r1t1 : 2 anagramy 
+retell teller 
+
+--- dla e2m1o1r1t1 : 2 anagramy 
+meteor remote 
+
+--- dla e2m1r1s1t1 : 2 anagramy 
+merest meters 
+
+--- dla e2n1o1p1r1 : 2 anagramy 
+opener reopen 
+
+--- dla e2n1r1s1t1 : 3 anagramy 
+enters resent tenser 
+
+--- dla e2n1r1s1w1 : 2 anagramy 
+renews resewn 
+
+--- dla e2n1r1t1u1 : 3 anagramy 
+neuter tenure tureen 
+
+--- dla e2n2r1t1 : 2 anagramy 
+rennet tenner 
+
+--- dla e2p1r1s1t1 : 3 anagramy 
+preset pester peters 
+
+--- dla e2p1r1s1u1 : 3 anagramy 
+peruse purees rupees 
+
+--- dla e2r1s1t2 : 4 anagramy 
+retest setter street tester 
+
+--- dla e2r1s2t1 : 4 anagramy 
+esters resets serest steers 
+
+--- dla e2r1s2v1 : 3 anagramy 
+serves severs verses 
+
+--- dla e2r1s2w1 : 2 anagramy 
+resews sewers 
+
+--- dla e2r2s1v1 : 2 anagramy 
+revers server 
+
+--- dla e2s2t2 : 2 anagramy 
+testes tsetse 
+
+--- dla e3l1s1v1 : 2 anagramy 
+levees sleeve 
+
+--- dla e3n1r1v1 : 2 anagramy 
+evener veneer 
+
+--- dla e3r1s1v1 : 2 anagramy 
+reeves severe 
+
+--- dla f1h1i1r1s1t1 : 2 anagramy 
+firths shrift 
+
+--- dla f1n1o1s1t1u1 : 2 anagramy 
+founts futons 
+
+--- dla g1h1i1l1s1t1 : 2 anagramy 
+lights slight 
+
+--- dla g1h1i1n1s1t1 : 2 anagramy 
+things nights 
+
+--- dla g1h1i1r1s1t1 : 2 anagramy 
+girths rights 
+
+--- dla g1h1l1o1s1u1 : 3 anagramy 
+ghouls loughs slough 
+
+--- dla g1h1o1s1t1u1 : 2 anagramy 
+sought toughs 
+
+--- dla g1i1l1n1o1p1 : 2 anagramy 
+loping poling 
+
+--- dla g1i1l1n1o1s1 : 2 anagramy 
+losing soling 
+
+--- dla g1i1l1n1p1u1 : 2 anagramy 
+plugin puling 
+
+--- dla g1i1l1n1r1u1 : 2 anagramy 
+luring ruling 
+
+--- dla g1i1m1n1p1u1 : 2 anagramy 
+impugn umping 
+
+--- dla g1i1n1o1p1r1 : 2 anagramy 
+poring roping 
+
+--- dla g1i1n1o1r1s1 : 2 anagramy 
+groins signor 
+
+--- dla g1i1n2o1t1 : 2 anagramy 
+noting toning 
+
+--- dla g1i2m1n1r1 : 2 anagramy 
+miring riming 
+
+--- dla g1i2n1r1s1 : 2 anagramy 
+rising siring 
+
+--- dla g1i2n1r1v1 : 2 anagramy 
+riving virgin 
+
+--- dla g1n1r1s1t1u1 : 2 anagramy 
+grunts strung 
+
+--- dla g2i1n1o1r1 : 2 anagramy 
+goring gringo 
+
+--- dla h1i1l1o1s1w1 : 2 anagramy 
+owlish lowish 
+
+--- dla h1r1s1t2u1 : 2 anagramy 
+thrust truths 
+
+--- dla i1l1n1s1t1u1 : 2 anagramy 
+insult sunlit 
+
+--- dla i1l1o1p1s1t1 : 2 anagramy 
+pilots pistol 
+
+--- dla i1m1n1o1s1t1 : 2 anagramy 
+inmost monist 
+
+--- dla i1n1o1p1r1s1 : 2 anagramy 
+prions prison 
+
+--- dla i1n1o1p1s1t1 : 4 anagramy 
+pintos points piston pitons 
+
+--- dla i1n1o2p1t1 : 2 anagramy 
+option potion 
+
+--- dla i1n1p1r1s1t1 : 2 anagramy 
+prints sprint 
+
+--- dla i1n1q1s1t1u1 : 2 anagramy 
+quints squint 
+
+--- dla i1n2o1s1u1 : 2 anagramy 
+unions unison 
+
+--- dla i1q1r1s1t1u1 : 2 anagramy 
+quirts squirt 
+
+--- dla l1o1p2s1y1 : 2 anagramy 
+polyps sloppy 
+
+--- dla l1o2p1s2 : 2 anagramy 
+sloops spools 
+
+--- dla l2o1r1s1t1 : 2 anagramy 
+stroll trolls 
+
+--- dla n1o2p1r1t1 : 2 anagramy 
+pronto proton 
+
+--- dla n1o2p1s2 : 2 anagramy 
+snoops spoons 
+
+--- dla o1p1r1s1t1u1 : 2 anagramy 
+sprout stupor 
+
+--- dla o1p1r1s2t1 : 2 anagramy 
+sports strops 
+
+--- dla o1p1s2t1u1 : 3 anagramy 
+spouts stoups tossup 
+
+--- dla o1p1t2u2 : 2 anagramy 
+output putout 
+
+--- dla o1r1s1t2u1 : 2 anagramy 
+trouts tutors 
+
+--- dla o2r1s2t1 : 2 anagramy 
+roosts torsos 
+
+--- dla r1s2t2u1 : 2 anagramy 
+struts trusts 
+Lacznie znaleziono 2102 anagramow w 914 zbiorach
+bye
