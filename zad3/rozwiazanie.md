@@ -14,9 +14,9 @@
 
 Nasza grupa skupiła się na różnych przykładach wykorzystania Map-Reduce ( tych zalecanych przez wykładowcę oraz własnych ). Podzieliliśmy nasze zadania na 3 grupy.
 
-Mniejsze, skupiające się na konkretnym przypadku zadania 3a - 3d.
-Średnie, bazujące na danych o szerszym zakresie, zadanie 3e.
-Projekt, starający się odwzorować życiowy use-case, zadanie 3f.
+Zadania 3a - 3d to są wszystkie zadania polecane przez prowadzącego zajęcia do zrobienia.
+Zadanie 3e jest średnio-zaawansowanym projektem operującym na danych o szerokim zakresie.
+Zadanie 3f jest pełnym projektem zbliżającym się do użytku codziennego funkcjonalności Map-Reduce
 
 ---
 
