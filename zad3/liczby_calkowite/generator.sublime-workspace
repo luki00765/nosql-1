@@ -1,0 +1,273 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"reco",
+				"recordsUpdated"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/cinkonaap/Projects/nosql/zad3/liczby_calkowite/generator.pl",
+		"/home/cinkonaap/Projects/nosql/zad3/liczby_calkowite/liczby.csv",
+		"/home/cinkonaap/Projects/nosql/zad3/anagramy/zad3_1.js",
+		"/home/cinkonaap/Projects/nosql_ug/.gitignore",
+		"/home/cinkonaap/Projects/seminarka/lightning1/public_html/index.html",
+		"/opt/lampp/etc/extra/httpd-vhosts.conf",
+		"/home/cinkonaap/Projects/seminarka/lightning1/.gitignore",
+		"/opt/lampp/etc/httpd.conf",
+		"/home/cinkonaap/Projects/seminarka/lightning1/package.json",
+		"/home/cinkonaap/Projects/seminarka/lightning1/Gruntfile.js",
+		"/home/cinkonaap/Projects/seminarka/lightning1/bower.json",
+		"/home/cinkonaap/Projects/seminarka/lightning1/.bowerrc",
+		"/home/cinkonaap/Projects/nosql_ug/zad2/rozwiazanie.md",
+		"/home/cinkonaap/Downloads/PhpStorm-138.2001.2328/Install-Linux-tar.txt",
+		"/home/cinkonaap/Projects/nosql_ug/zad2/agregacja4.js",
+		"/home/cinkonaap/Projects/nosql_ug/zad2/agregacja3.js",
+		"/home/cinkonaap/Projects/nosql_ug/zad2/agregacja2.js",
+		"/home/cinkonaap/Projects/nosql_ug/zad2/agregacja1.js",
+		"/home/cinkonaap/Projects/nosql_ug/zad1/rozwiazanie.md",
+		"/home/cinkonaap/Projects/nosql_ug/zad2/agregacja1.py",
+		"/home/cinkonaap/Projects/nosql_ug/zad2/agregacja4_result.json",
+		"/home/cinkonaap/Projects/nosql_ug/zad2/agregacja3_result.json",
+		"/home/cinkonaap/Projects/nosql_ug/zad2/agregacja2_result.json",
+		"/home/cinkonaap/Projects/nosql_ug/zad2/agregacja1_result.json",
+		"/home/cinkonaap/Projects/aggregations-3/README.md",
+		"/home/cinkonaap/Projects/nosql_ug/zad1/usa_canada_cities.csv",
+		"/home/cinkonaap/Projects/nosql_ug/zad1/geoQ6.geojson",
+		"/home/cinkonaap/Projects/nosql_ug/zad1/geoQ4.geojson",
+		"/home/cinkonaap/Projects/nosql_ug/zad1/geoQ2.geojson",
+		"/home/cinkonaap/Projects/nosql_ug/zad1/geoQ1.geojson",
+		"/home/cinkonaap/Projects/nosql_ug/zad1/temp.js",
+		"/home/cinkonaap/Projects/nosql_ug/zad1/usa_to_geo.js",
+		"/home/cinkonaap/Projects/nosql_ug/zad1/tags.py",
+		"/home/cinkonaap/Projects/nosql_ug/zad1/tags.js",
+		"/home/cinkonaap/Projects/nosql_ug/zad1/miasto, szerokosc, dlugosc, czas",
+		"/home/cinkonaap/Projects/nosql_ug/zad1/Train_clear.csv",
+		"/home/cinkonaap/Projects/nosql_ug/zad1/2unix.sh"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"js",
+			"grunt",
+			"\",\n",
+			"filmów",
+			"-->",
+			"--> POSTGRESQL <--",
+			"..> MONGO DB <--",
+			"\"loc\"",
+			"		\"l",
+			"\"city.*\\n",
+			"\"_id.*\\)\\,",
+			"loc",
+			"\n		\"ty",
+			"\"city.*\\,",
+			"\"city\" : \"Newark N.J.\",",
+			"\"city.*\\,",
+			"\"_id.*\\)\\,",
+			"loc",
+			"\n		\"typ",
+			"\"city.*\\,",
+			"\"_id.*\\)\\,",
+			"\n		\"type\": \"Feature\",",
+			"\"type\": \"Feature\",",
+			"loc",
+			"\n		\"type",
+			"loc",
+			"\"properties\": {},",
+			"\"city\".*\\,",
+			"\"city\" : \"Havre Mont.\",",
+			"\"_id.*\\)\\,",
+			"\"properties\": {},",
+			"\"city\".*\\,",
+			"loc",
+			"\"_id\".*\\(.*\\)\\,",
+			"\\s{2,5}",
+			"Can.",
+			",",
+			"[A-Z][\\l\\,\\.\\s]*\\s\\s",
+			"d{1,2}:\\d{1,2}\\s([a|p]\\.m\\.|noon)",
+			"\\s\\s\\d{1,2}:\\d{1,2}\\s([a|p]\\.m\\.|noon)",
+			"\\d+\\s\\s"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"#### POSTGRESQL",
+			"#### MONGO DB",
+			"        \"geometry\"",
+			"         \"loc\"",
+			"          \"loc\"",
+			"             \"loc\"",
+			"		\\n\"l",
+			"\"type\": \"Feature\",\n        \"properties\": {},",
+			"",
+			"geometry",
+			"\"ty",
+			"\"type\": \"Feature\",\n        \"properties\": {},",
+			"\"type\": \"Feature\",\n          \"properties\": {},",
+			"",
+			"geometry",
+			"\"typ",
+			"\"type\": \"Feature\",\n        \"properties\": {},",
+			"",
+			"\"type\": \"Feature\",",
+			"geometry",
+			"\"type",
+			"coordinates",
+			"  \"properties\": {},",
+			"\"type\": \"Feature\",\n      \"properties\": {},",
+			"",
+			"  \"properties\": {},",
+			"\"type\": \"Feature\",\n      \"properties\": {},",
+			"\"type\": \"Feature\",\n\"properties\": {},",
+			"geometry",
+			"",
+			",",
+			"Can ",
+			"",
+			"$x",
+			"",
+			"\\d."
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "generator.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
