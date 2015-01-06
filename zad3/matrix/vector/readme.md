@@ -1,11 +1,12 @@
 #Mnożenie macierzy przez wektor
 
 ## Generowanie danych
-Do zapełnienia bazy testowymi danymi napisałem skrypt w JS, który losuje
-matrycę o wielkości 1000x1000 oraz wektor o rozmiarze 1000. Każdy dokument to
-położenie jednego elementu w matrycy(x,y)/wektorze(x). Wartość "type" określa
-przynależność punktu do matrycy, bądź wektora. Jest ona wykorzystywana przy
-filtrowaniu danych w query oraz przygotowywaniu wektora do funkcji map.
+Do zapełnienia bazy testowymi danymi napisaliśmy [skrypt w JS](populate.js),
+który losuje matrycę o wielkości 1000x1000 oraz wektor o rozmiarze 1000. Każdy
+dokument to położenie jednego elementu w matrycy(x,y)/wektorze(x). Wartość
+"type" określa przynależność punktu do matrycy, bądź wektora. Jest ona
+wykorzystywana przy filtrowaniu danych w query oraz przygotowywaniu wektora do
+funkcji map.
 
 ### Wywołanie skryptu:
 ```
@@ -26,7 +27,7 @@ sys	0m19.479s
 ```
 
 ## Obliczenia
-Obliczenia właściwe są wykonywane poprzez skrypt matrix-vector.js. Zgodnie z
+Obliczenia właściwe są wykonywane poprzez skrypt [matrix-vector.js](matrix-vector.js). Zgodnie z
 rozwiązaniem zaproponowanym w książce, do funkcji map udostępniamy uprzednio
 przygotowany wektor poprzez nadanie mu zasięgu globalnego za pomocą scope.
 Następnie obliczana i wysyłana dzięki emit do reduce jest para (w, y), gdzie w
