@@ -8,17 +8,27 @@
 
 ## Opis projektu
 
+Nasza grupa skupiła się na różnych przykładach wykorzystania Map-Reduce ( tych zalecanych przez wykładowcę oraz własnych ). Podzieliliśmy nasze zadania na 3 grupy.
+
+Mniejsze, skupiające się na konkretnym przypadku zadania 3a - 3d.
+Średnie, bazujące na danych o szerszym zakresie, zadanie 3e.
+Projekt, starający się odwzorować życiowy use-case, zadanie 3f.
+
+---
+
+## Zadanie 3a - Anagramy
+
 Do zrobienia...
 
 ---
 
-## Zadanie 3a
+## Zadanie 3b - ?
 
 Do zrobienia...
 
 ---
 
-## Zadanie 3c
+## Zadanie 3c - Liczby całkowite
 
 Zadanie polega na wykonaniu czterech operacji Map-Reduce na zbiorze liczb całkowitych.
 
@@ -157,5 +167,23 @@ $ mongo ug
 Wynik:
 
 Liczba 500, widać że przy większym zbiore niż zasięg wartości wszystkie zostały wykorzystane.
+
+---
+
+## Zadanie 3d - ?
+
+Do zrobienia...
+
+---
+
+## Zadanie 3e - ?
+
+Do zrobienia...
+
+---
+
+## Zadanie 3f - PROJEKT, ?
+
+Do zrobienia...
 
 ---
