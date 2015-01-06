@@ -2,7 +2,7 @@ var mongo       = new Mongo();
 var db          = mongo.getDB("nosql");
 
 var map = function() {
-  emit(this.x, this.v * vector);
+  emit(this.x, this.v * vector.v[this.x]);
 };
 
 var reduce = function (key, values) {
