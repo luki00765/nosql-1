@@ -19,6 +19,12 @@ utworzenie stringa, który będzie kluczem dla funkcji reduce. Dla przykładu
 wyrazy "aaabbb" oraz "ababab" będą miały klucz "a3b3", a zatem zostaną
 zgrupowane jako anagramy.
 
+W funkcji reduce anagramy są grupowane do obiektu, zawierającego również wartość
+count, posiadającą informację o liczbie anagramów dla danego klucza. Wyniki
+przechowywane są w kolekcji result. Wyjściowy wynik otrzymywany jest poprzez
+wykonanie zapytania, w którym zwracane są rekordy o polu "value" będącym
+obiektem.
+
 Kod skryptu znajduje się w pliku [zad3_1.js](zad3_1.js).
 
 
@@ -50,6 +56,15 @@ sys	0m0.013s
 ```
 
 ## Przykładowe wyniki
+W kolekcji result:
+```JSON
+{ "_id" : "a1b1c1e1r1s1", "value" : { "0" : "braces", "1" : "cabers", "count" : 2 } }
+{ "_id" : "a1b1c1e1r2", "value" : "bracer" }
+{ "_id" : "a1b1c1e2m1", "value" : "became" }
+{ "_id" : "a1b1c1f1i1r1", "value" : "fabric" }
+```
+
+Wyjściowe:
 ```
 --- dla e2n1r1t1u1 : 3 anagramy
 neuter tenure tureen

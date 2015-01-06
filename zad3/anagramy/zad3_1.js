@@ -32,29 +32,25 @@ var map = function() {
 };
 
 var reduce  = function(word, values) {
-  print(values.length);
-  if(values.length > 1)
+  var result = {};
+
+  for(i = 0; i < values.length; i++)
   {
-    var result = {};
-
-    for(i = 0; i < values.length; i++)
-    {
-      if(typeof result[i] == 'undefined') result[i] = "";
-      result[i] = result[i] + values[i];
-    }
-
-    var i = 0;
-    for(var k in result)
-    {
-      if (result.hasOwnProperty(k)) {
-        i++;
-      }
-    }
-
-    result["count"] = i;
-
-    return result;
+    if(typeof result[i] == 'undefined') result[i] = "";
+    result[i] = result[i] + values[i];
   }
+
+  var i = 0;
+  for(var k in result)
+  {
+    if (result.hasOwnProperty(k)) {
+      i++;
+    }
+  }
+
+  result["count"] = i;
+
+  return result;
 };
 
 collection.mapReduce( map, reduce, { out : "result" } );
