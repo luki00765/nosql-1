@@ -1,23 +1,17 @@
-var size = 12;
+var size = 1000;
 
 var mongo       = new Mongo();
 var db          = mongo.getDB("nosql");
-var matrix      = db.matrix2;
+var matrix      = db.matrix1;
 
 matrix.drop();
 
-var mat = { type : "matrix", rows : [] };
 for (var i = 0; i < size; i++) {
-  var row = [];
   for(j = 0; j < size; j++) {
-    row.push({ y : j, v : Math.floor((Math.random() * 10) + 1) });
+    matrix.insert({ type: "matrix", x : i, y : j, v : Math.floor((Math.random() * 10) + 1) });
   }
-  mat.rows.push(row);
 }
-matrix.insert(mat);
 
-var vec = { type : "vector", v : [] };
 for (var i = 0; i < size; i++) {
-  vec.v.push(Math.floor((Math.random() * 10) + 1));
+  matrix.insert({ type: "vector", x : i, v : Math.floor((Math.random() * 10) + 1) });
 }
-matrix.insert(vec);
