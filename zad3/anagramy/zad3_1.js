@@ -32,17 +32,28 @@ var map = function() {
 };
 
 var reduce  = function(word, values) {
-  
-  var result = {};
-
-  for(i = 0; i < values.length; i++)
+  if(values.length > 0)
   {
-    if(typeof result[word] == 'undefined') result[word] = "";
-    result[word] = result[word] + ' ' + values[i];
-  }
+    var result = {};
 
-  return result;
+    for(i = 0; i < values.length; i++)
+    {
+      if(typeof result[i] == 'undefined') result[i] = "";
+      result[i] = result[i] + values[i];
+    }
+
+    var i = 0;
+    for(var k in result)
+    {
+      if (result.hasOwnProperty(k)) {
+        i++;
+      }
+    }
+
+    result["count"] = i;
+
+    return result;
+  }
 };
 
-
-collection.mapReduce( map, reduce, { out : { inline : 1 } } );
+collection.mapReduce( map, reduce, { out : "result" } );
