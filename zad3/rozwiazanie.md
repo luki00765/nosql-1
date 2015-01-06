@@ -257,7 +257,79 @@ Jak widać w 10 pierwszych wynikach, średnia wartość najczęstszej ilości ta
 
 ## Zadanie 3e
 
-Do zrobienia...
+W tym zadaniu wykorzystujemy bazę IMDB Get Glue która także była dostępna w Zadaniu 1.
+
+Na początku przygotowujemy dane i importujemy do Mongo.
+
+```sh
+$ time mongoimport --db ug --collection getglue --type json --file getglue_sample.json 
+
+real 15m7.825s
+user 3m42.567s
+sys 0m12.626s
+```
+
+I sprawdzamy poprawność importu
+
+```sh
+$ mongo ug
+> db.getglue.count()
+19831300
+```sh
+
+#### Przykład A - Ilość użytkowników wykonujących akcję
+
+[user_actions.js](https://github.com/cinkonaap/nosql/blob/master/zad3/get_glue/user_actions.js)
+
+```sh
+$ time mongo ug < user_actions.js 
+
+real 9m45.786s
+user 0m3.243s
+sys	0m2.728s
+
+$ mongo ug
+> db.tempResults.count();
+173242
+```
+
+Jest takich użytkowników 173242
+
+#### Przykład B - Użytkownicy z największą ilością akcji
+
+[user_actions.js](https://github.com/cinkonaap/nosql/blob/master/zad3/get_glue/user_actions.js)
+
+```sh
+$ time mongo ug < user_actions.js 
+
+real 8m25.234s
+user 0m3.187s
+sys	0m1.925s
+
+$ mongo ug
+> db.tempResults.find().sort( { 'value' : -1 } )
+```
+
+Wynik :
+
+```sh
+{ "_id" : "michaela_behrens", "value" : 1540 }
+{ "_id" : "colleen_presser", "value" : 1113 }
+{ "_id" : "resev1010", "value" : 1108 }
+{ "_id" : "moviesrgood", "value" : 1094 }
+{ "_id" : "archerfamilyrpg", "value" : 914 }
+{ "_id" : "sunuwiratsongko", "value" : 886 }
+{ "_id" : "todd_mckellar", "value" : 817 }
+{ "_id" : "jerrod_chekal", "value" : 798 }
+{ "_id" : "jose_g_nieves", "value" : 797 }
+{ "_id" : "mnium", "value" : 785 }
+{ "_id" : "Lutz59", "value" : 784 }
+{ "_id" : "emelie_ljungberg", "value" : 774 }
+{ "_id" : "alexandre_campana", "value" : 725 }
+{ "_id" : "sheila_jones", "value" : 724 }
+{ "_id" : "stephanie_duncan1", "value" : 706 }
+```
+Jest to lista 15 użytkowników z największą ilością akcji
 
 ---
 
