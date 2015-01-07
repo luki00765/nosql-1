@@ -369,7 +369,7 @@ connecting to: test
 	"ok" : 1
 }
 
-
+db.wystapieniaslow.find().sort({value:-1}).limit(10);
 ```
 Wynik :
 ```js
