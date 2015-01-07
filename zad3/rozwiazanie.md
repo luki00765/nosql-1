@@ -6,7 +6,7 @@
 * [Zadanie 3c - Liczby całkowite](#zadanie-3c)
 * [Zadanie 3d - Stack Overflow](#zadanie-3d)
 * [Zadanie 3e - Get Glue](#zadanie-3e)
-* [Zadanie 3f - ? RAZEM ?](#zadanie-3f)
+* [Zadanie 3f - Lastfm](#zadanie-3f)
 
 ---
 
@@ -335,6 +335,55 @@ Jest to lista 15 użytkowników z największą ilością akcji
 
 ## Zadanie 3f
 
-Do zrobienia...
+Wykorzystałem bazę [last.fm](http://labrosa.ee.columbia.edu/millionsong/lastfm). Baza była pocięta w 839122 plików JSON. Każdy plik reprezentował 1 rekord zawierający tytuł piosenki, wykonawcę, tagi przypisane do piosenki oraz referencje do podobnych utworów. Przy próbie importu tylu plików metodą 1 po 2, Mongo wyrabiało z prędkością około 30 rekordów na sekund. Trzeba było więc scalić wszystkie pliki w 1.
+Napisałem do tego prosty skrypt bash.
+```sh
+for col in $(find -follow | grep .json)
+do
+	cat $col >> output.json
+done
+```
+Gdy już zrobiło merge wszystkich plików do output.json. Zaimportowałem do wszystko do bazy danych.
+```sh
+time mongoimport -d egzamin -c lastfm --file output.json
+imported 839122 objects
+real	1m42.850s
+```
+### Przykład A - Wystąpienia słów w tytule piosenek
+[wystapieniaslow.js](lastfm/wystapieniaslow.js)
+
+Zrobiłem map / reduce tak jak w poleceniu, wyszukujące najczęściej występujące słowa, tylko wykorzystałem do tego bazę last.fm oraz tytuły piosenek.
+```sh
+mongo < skrypt.js
+MongoDB shell version: 2.6.6
+connecting to: test
+{
+	"result" : "wystapieniaslow",
+	"timeMillis" : 47001,
+	"counts" : {
+		"input" : 839122,
+		"emit" : 2795793,
+		"reduce" : 451501,
+		"output" : 210987
+	},
+	"ok" : 1
+}
+
+
+```
+Wynik :
+```js
+{ "_id" : "the", "value" : 100162 }
+{ "_id" : "version)", "value" : 38780 }
+{ "_id" : "of", "value" : 37999 }
+{ "_id" : "you", "value" : 36851 }
+{ "_id" : "a", "value" : 35243 }
+{ "_id" : "i", "value" : 31267 }
+{ "_id" : "in", "value" : 30811 }
+{ "_id" : "me", "value" : 26833 }
+{ "_id" : "to", "value" : 26700 }
+{ "_id" : "love", "value" : 23142 }
+```
+Jest to 10 najczęściej występujących słów w tytułach piosenek.
 
 ---
