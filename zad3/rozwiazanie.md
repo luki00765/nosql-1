@@ -434,6 +434,7 @@ Wynik :
 { "_id" : "indie rock", "value" : 22125 }
 ```
 ![tagi.png](lastfm/tagi.png)
+
 Na 900 tys. rekordów rock najczęściej występujący tag ma pokrywa 10% rekordów, mało, ale po prostu wina jest taka, że duży % piosenek nie ma przypisane żadnych tagów.
 
 ---
