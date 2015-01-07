@@ -108,7 +108,7 @@ esters resets serest steers
 ```
 
 ## Wyniki
-Kompletny plik z wynikami znajduje się w [result](result)
+Kompletny plik z wynikami znajduje się w [result](anagramy/result)
 
 ---
 
@@ -679,6 +679,6 @@ Wynik :
 
 ```
 [Mapka](ufo/ufo.geojson) pokazująca te 5 wyników, z zaznaczonym obszarem, które obejmują wyniki.
-
+![ufogeo.png](ufo/ufogeo.png)
 
 ---
