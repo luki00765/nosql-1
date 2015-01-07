@@ -386,4 +386,54 @@ Wynik :
 ```
 Jest to 10 najczęściej występujących słów w tytułach piosenek.
 
+#### Przykład B - najczęściej przypisywane tagi do piosenek.
+[najczestszetagi.js](lastfm/najczestszetagi)
+
+```bash
+mongo < nosql/zad3/lastfm/najczestszetagi.js
+MongoDB shell version: 2.6.6
+connecting to: test
+{
+	"result" : "najczestszetagi",
+	"timeMillis" : 170994,
+	"counts" : {
+		"input" : 839122,
+		"emit" : 7671122,
+		"reduce" : 1219807,
+		"output" : 484364
+	},
+	"ok" : 1
+}
+
+db.najczestszetagi.find().sort({value:-1}).limit(20);
+```
+
+Wynik :
+```js
+
+
+{ "_id" : "rock", "value" : 91199 }
+{ "_id" : "pop", "value" : 61766 }
+{ "_id" : "alternative", "value" : 50567 }
+{ "_id" : "indie", "value" : 43036 }
+{ "_id" : "electronic", "value" : 40326 }
+{ "_id" : "female vocalists", "value" : 37796 }
+{ "_id" : "favorites", "value" : 36185 }
+{ "_id" : "Love", "value" : 31473 }
+{ "_id" : "dance", "value" : 29495 }
+{ "_id" : "00s", "value" : 28189 }
+{ "_id" : "alternative rock", "value" : 27609 }
+{ "_id" : "beautiful", "value" : 26528 }
+{ "_id" : "jazz", "value" : 25943 }
+{ "_id" : "singer-songwriter", "value" : 25626 }
+{ "_id" : "male vocalists", "value" : 24438 }
+{ "_id" : "metal", "value" : 24264 }
+{ "_id" : "chillout", "value" : 24227 }
+{ "_id" : "Awesome", "value" : 23793 }
+{ "_id" : "classic rock", "value" : 23777 }
+{ "_id" : "indie rock", "value" : 22125 }
+```
+![tagi.png](lastfm/tagi.png)
+Na 900 tys. rekordów rock najczęściej występujący tag ma pokrywa 10% rekordów, mało, ale po prostu wina jest taka, że duży % piosenek nie ma przypisane żadnych tagów.
+
 ---
