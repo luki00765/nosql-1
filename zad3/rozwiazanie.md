@@ -679,6 +679,6 @@ Wynik :
 
 ```
 [Mapka](ufo/ufo.geojson) pokazująca te 5 wyników, z zaznaczonym obszarem, które obejmują wyniki.
-![ufogeo.png](ufo/ufogeo.png)
+[![ufogeo.png](ufo/ufogeo.png)](ufo/ufo.geojson)
 
 ---
