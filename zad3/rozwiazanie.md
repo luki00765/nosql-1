@@ -542,7 +542,7 @@ Wynik :
 Jest to 10 najczęściej występujących słów w tytułach piosenek.
 
 #### Przykład B - najczęściej przypisywane tagi do piosenek.
-[najczestszetagi.js](lastfm/najczestszetagi)
+[najczestszetagi.js](lastfm/najczestszetagi.js)
 
 ```bash
 mongo < nosql/zad3/lastfm/najczestszetagi.js
