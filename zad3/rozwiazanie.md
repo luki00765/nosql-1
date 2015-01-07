@@ -47,7 +47,7 @@ przechowywane są w kolekcji result. Wyjściowy wynik otrzymywany jest poprzez
 wykonanie zapytania, w którym zwracane są rekordy o polu "value" będącym
 obiektem.
 
-Kod skryptu znajduje się w pliku [zad3_1.js](zad3_1.js).
+Kod skryptu znajduje się w pliku [zad3_1.js](https://github.com/cinkonaap/nosql/blob/master/zad3/anagramy/zad3_1.js).
 
 
 #### Wykonanie
@@ -115,7 +115,7 @@ Kompletny plik z wynikami znajduje się w [result](result)
 ## Zadanie 3b
 
 #### Generowanie danych
-Do zapełnienia bazy testowymi danymi napisaliśmy [skrypt w JS](populate.js),
+Do zapełnienia bazy testowymi danymi napisaliśmy [skrypt w JS](https://github.com/cinkonaap/nosql/blob/master/zad3/matrix/vector/populate.js),
 który losuje matrycę o wielkości 1000x1000 oraz wektor o rozmiarze 1000. Każdy
 dokument to położenie jednego elementu w matrycy(x,y)/wektorze(x). Wartość
 "type" określa przynależność punktu do matrycy, bądź wektora. Jest ona
@@ -141,7 +141,7 @@ sys	0m19.479s
 ```
 
 #### Obliczenia
-Obliczenia właściwe są wykonywane poprzez skrypt [matrix-vector.js](matrix-vector.js). Zgodnie z
+Obliczenia właściwe są wykonywane poprzez skrypt [matrix-vector.js](https://github.com/cinkonaap/nosql/blob/master/zad3/matrix/vector/matrix-vector.js). Zgodnie z
 rozwiązaniem zaproponowanym w książce, do funkcji map udostępniamy uprzednio
 przygotowany wektor poprzez nadanie mu zasięgu globalnego za pomocą scope.
 Następnie obliczana i wysyłana dzięki emit do reduce jest para (w, y), gdzie w
