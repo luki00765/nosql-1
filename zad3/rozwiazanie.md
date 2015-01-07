@@ -13,7 +13,7 @@
 
 ## Opis projektu
 
-Nasza grupa skupiła się na różnych przykładach wykorzystania Map-Reduce ( tych zalecanych przez wykładowcę oraz własnych ). Podzieliliśmy nasze zadania na 3 grupy.
+Nasza grupa skupiła się na różnych przykładach wykorzystania Map-Reduce ( tych zalecanych przez wykładowcę oraz własnych ). Podzieliliśmy nasze zadania na 2 grupy.
 
 Zadania 3a - 3c to problemy Map-Reduce polecane przez prowadzącego.
 Zadanie 3d - 3g to obszerniejsze przykłady Map-Reduce korzystające z prawdziwych danych.
