@@ -22,13 +22,167 @@ Zadanie 3d - 3f to obszerniejsze przykłady Map-Reduce korzystające z prawdziwy
 
 ## Zadanie 3a
 
-[Opis rozwiązania](https://github.com/cinkonaap/nosql/blob/master/zad3/anagramy/rozwiazanie.md)
+#### Import danych
+```sh
+mongoimport --db nosql --collection words2 --type csv --file word_list.txt --fields word
+```
+
+Weryfikacja importu:
+```sh
+> db.words.count()
+8199
+```
+#### Działanie skryptu
+Funkcja mapująca otrzymując wyraz tworzy stringa zawierającego ilość wystąpień
+poszczególnych liter w wyrazie. Najpierw rozbija wyraz na litery i umieszcza je
+w tablicy i sortuje ją alfabetycznie. Następnie zlicza ilość wystąpień każdej
+litery, po czym umieszcza tę informację w obiekcie. Kolejnym krokiem jest
+utworzenie stringa, który będzie kluczem dla funkcji reduce. Dla przykładu
+wyrazy "aaabbb" oraz "ababab" będą miały klucz "a3b3", a zatem zostaną
+zgrupowane jako anagramy.
+
+W funkcji reduce anagramy są grupowane do obiektu, zawierającego również wartość
+count, posiadającą informację o liczbie anagramów dla danego klucza. Wyniki
+przechowywane są w kolekcji result. Wyjściowy wynik otrzymywany jest poprzez
+wykonanie zapytania, w którym zwracane są rekordy o polu "value" będącym
+obiektem.
+
+Kod skryptu znajduje się w pliku [zad3_1.js](zad3_1.js).
+
+
+#### Wykonanie
+```sh
+time mongo < zad3_1.js
+```
+
+Odpowiedź mongo:
+```JSON
+{
+  "result" : "result",
+  "timeMillis" : 362,
+  "counts" : {
+    "input" : 8199,
+    "emit" : 8199,
+    "reduce" : 914,
+    "output" : 7011
+  },
+  "ok" : 1
+}
+```
+
+## Czas wykonania
+```
+real	0m0.511s
+user	0m0.086s
+sys	0m0.013s
+```
+
+## Przykładowe wyniki
+W kolekcji result:
+```JSON
+{ "_id" : "a1b1c1e1r1s1", "value" : { "0" : "braces", "1" : "cabers", "count" : 2 } }
+{ "_id" : "a1b1c1e1r2", "value" : "bracer" }
+{ "_id" : "a1b1c1e2m1", "value" : "became" }
+{ "_id" : "a1b1c1f1i1r1", "value" : "fabric" }
+```
+
+Wyjściowe:
+```
+--- dla e2n1r1t1u1 : 3 anagramy
+neuter tenure tureen
+
+--- dla e2n2r1t1 : 2 anagramy
+rennet tenner
+
+--- dla e2p1r1s1t1 : 3 anagramy
+preset pester peters
+
+--- dla e2p1r1s1u1 : 3 anagramy
+peruse purees rupees
+
+--- dla e2r1s1t2 : 4 anagramy
+retest setter street tester
+
+--- dla e2r1s2t1 : 4 anagramy
+esters resets serest steers
+```
+
+## Wyniki
+Kompletny plik z wynikami znajduje się w [result](result)
 
 ---
 
 ## Zadanie 3b
 
-[Opis rozwiązania](https://github.com/cinkonaap/nosql/tree/master/zad3/matrix/vector)
+#### Generowanie danych
+Do zapełnienia bazy testowymi danymi napisaliśmy [skrypt w JS](populate.js),
+który losuje matrycę o wielkości 1000x1000 oraz wektor o rozmiarze 1000. Każdy
+dokument to położenie jednego elementu w matrycy(x,y)/wektorze(x). Wartość
+"type" określa przynależność punktu do matrycy, bądź wektora. Jest ona
+wykorzystywana przy filtrowaniu danych w query oraz przygotowywaniu wektora do
+funkcji map.
+
+#### Wywołanie skryptu:
+```
+time mongo < populate.js
+```
+
+#### Czas wykonania:
+```
+real	7m13.107s
+user	5m12.133s
+sys	0m19.479s
+```
+
+#### Weryfikacja wyników:
+```
+> db.matrix1.count()
+1001000
+```
+
+#### Obliczenia
+Obliczenia właściwe są wykonywane poprzez skrypt [matrix-vector.js](matrix-vector.js). Zgodnie z
+rozwiązaniem zaproponowanym w książce, do funkcji map udostępniamy uprzednio
+przygotowany wektor poprzez nadanie mu zasięgu globalnego za pomocą scope.
+Następnie obliczana i wysyłana dzięki emit do reduce jest para (w, y), gdzie w
+to indeks wiersza, a y to element m(w,i) x v(i), gdzie m to matryca, a v to
+wektor. W funkcji reduce elementy te są sumowane, a rezultatem jest wektor
+wynikowy.
+
+#### Rezultat wykonania w konsoli mongo:
+```JSON
+"timeMillis" : 9430,
+"counts" : {
+  "input" : 1000000,
+  "emit" : 1000000,
+  "reduce" : 1456,
+  "output" : 1000
+  },
+  "ok" : 1
+```
+
+#### Przykładowe wyniki:
+```JSON
+  {
+    "_id" : 994,
+    "value" : 31470
+  },
+  {
+    "_id" : 995,
+    "value" : 29626
+  },
+  {
+    "_id" : 996,
+    "value" : 31331
+  },
+```
+
+#### Czas wykonania:
+```
+real	0m9.337s
+user	0m0.079s
+sys	0m0.017s
+```
 
 ---
 
