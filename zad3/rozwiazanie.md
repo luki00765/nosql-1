@@ -667,7 +667,7 @@ connecting to: egzamin
 	"ok" : 1
 }
 
-db.ufogeo.find().sort({value:-1}).limit(10);
+db.ufogeo.find().sort({value:-1}).limit(5);
 ```
 Wynik :
 ```js
@@ -676,12 +676,9 @@ Wynik :
 { "_id" : { "x" : 40, "y" : -76 }, "value" : 2067 }
 { "_id" : { "x" : 32, "y" : -116 }, "value" : 1468 }
 { "_id" : { "x" : 40, "y" : -88 }, "value" : 1309 }
-{ "_id" : { "x" : 32, "y" : -112 }, "value" : 1305 }
-{ "_id" : { "x" : 44, "y" : -124 }, "value" : 1119 }
-{ "_id" : { "x" : 40, "y" : -84 }, "value" : 1070 }
-{ "_id" : { "x" : 40, "y" : -72 }, "value" : 1030 }
-{ "_id" : { "x" : 32, "y" : -96 }, "value" : 993 }
+
 ```
+[Mapka](ufo/ufo.geojson) pokazująca te 5 wyników, z zaznaczonym obszarem, które obejmują wyniki.
 
 
 ---
