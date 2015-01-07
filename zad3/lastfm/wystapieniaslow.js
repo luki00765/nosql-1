@@ -22,4 +22,4 @@ var reduce = function(key, values){
     return count;
 };
 
-db.lastfm.mapReduce( map, reduce, { out: "wystapieniaslow" } );
+collection.mapReduce( map, reduce, { out: "wystapieniaslow" } );

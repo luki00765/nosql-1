@@ -7,6 +7,7 @@
 * [Zadanie 3d - Stack Overflow](#zadanie-3d)
 * [Zadanie 3e - Get Glue](#zadanie-3e)
 * [Zadanie 3f - Lastfm](#zadanie-3f)
+* [Zadanie 3g - Ufo](#zadanie-3g)
 
 ---
 
@@ -435,6 +436,59 @@ Wynik :
 ```
 ![tagi.png](lastfm/tagi.png)
 
-Na 900 tys. rekordów rock najczęściej występujący tag ma pokrywa 10% rekordów, mało, ale po prostu wina jest taka, że duży % piosenek nie ma przypisane żadnych tagów.
+Na 900 tys. rekordów, rock najczęściej występujący tag ma pokrywa 10% rekordów, mało, ale po prostu wina jest taka, że duży % piosenek nie ma przypisane żadnych tagów.
+
+## Zadanie 3g
+
+W tym zadaniu są przykłady map oraz reduce na bazie udokumentowanych obserwacji UFO.
+Dane zawierają ponad 60tys. rekordów. Informacje takie jak czas, miejsce, położenie geograficzne, opis, długość trwania obserwacji z niezidentyfikowanymi obiektami latającymi. Można ją pobrać [tutaj](https://raw.githubusercontent.com/mongodb/mongo-hadoop/master/examples/ufo_sightings/src/main/resources/ufo_awesome.json).
+
+#### Przykład A - Liczba spotkań z UFO wg miesięcy
+
+[ufodata.js](ufo/ufodata.js)
+
+```sh
+mongo < nosql/zad3/ufo/ufodata.js
+{
+	"result" : "ufodata",
+	"timeMillis" : 654,
+	"counts" : {
+		"input" : 61067,
+		"emit" : 60815,
+		"reduce" : 4388,
+		"output" : 788
+	},
+	"ok" : 1
+}
+db.ufodata.find({"_id":/2005|2006/ })
+```
+Wynik :
+```js
+{ "_id" : "2005 Czerwiec", "value" : 381 }
+{ "_id" : "2005 Grudzień", "value" : 277 }
+{ "_id" : "2005 Kwiecień", "value" : 309 }
+{ "_id" : "2005 Lipiec", "value" : 444 }
+{ "_id" : "2005 Listopad", "value" : 457 }
+{ "_id" : "2005 Luty", "value" : 279 }
+{ "_id" : "2005 Maj", "value" : 289 }
+{ "_id" : "2005 Marzec", "value" : 354 }
+{ "_id" : "2005 Październik", "value" : 484 }
+{ "_id" : "2005 Sierpień", "value" : 338 }
+{ "_id" : "2005 Styczeń", "value" : 254 }
+{ "_id" : "2005 Wrzesień", "value" : 527 }
+{ "_id" : "2006 Czerwiec", "value" : 324 }
+{ "_id" : "2006 Grudzień", "value" : 376 }
+{ "_id" : "2006 Kwiecień", "value" : 319 }
+{ "_id" : "2006 Lipiec", "value" : 411 }
+{ "_id" : "2006 Listopad", "value" : 406 }
+{ "_id" : "2006 Luty", "value" : 229 }
+{ "_id" : "2006 Maj", "value" : 292 }
+{ "_id" : "2006 Marzec", "value" : 305 }
+{ "_id" : "2006 Październik", "value" : 392 }
+{ "_id" : "2006 Sierpień", "value" : 420 }
+{ "_id" : "2006 Styczeń", "value" : 248 }
+{ "_id" : "2006 Wrzesień", "value" : 313 }
+```
+![ufodata.png](ufo/ufodata.png)
 
 ---

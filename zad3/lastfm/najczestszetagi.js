@@ -21,4 +21,4 @@ var reduce = function(key, values){
   return count;
 };
 
-db.lastfm.mapReduce( map, reduce, { out: "najczestszetagi" } );
+collection.mapReduce( map, reduce, { out: "najczestszetagi" } );
