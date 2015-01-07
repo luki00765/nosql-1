@@ -645,4 +645,43 @@ Wynik :
 ```
 ![ufodata.png](ufo/ufodata.png)
 
+#### Przykład B - Miejsca geolokalizacyjne gdzie najczęściej widziało UFO
+
+[ufogeo.js](ufo/ufogeo.js)
+
+Rozwiązałem tak by kluczem, byly współrzędne graficzne, ale zaokrąglane do 4 stopni. Wyniki pokazują ilość wystąpień UFO w kwadracie 4x4 stopnie wokół współrzędnych(2* wschód, północ itd.).
+
+```bash
+mongo < nosql/zad3/ufo/ufogeo.js
+MongoDB shell version: 2.6.6
+connecting to: egzamin
+{
+	"result" : "ufogeo",
+	"timeMillis" : 622,
+	"counts" : {
+		"input" : 61067,
+		"emit" : 37621,
+		"reduce" : 2781,
+		"output" : 298
+	},
+	"ok" : 1
+}
+
+db.ufogeo.find().sort({value:-1}).limit(10);
+```
+Wynik :
+```js
+{ "_id" : { "x" : 48, "y" : -124 }, "value" : 2418 }
+{ "_id" : { "x" : 36, "y" : -120 }, "value" : 2182 }
+{ "_id" : { "x" : 40, "y" : -76 }, "value" : 2067 }
+{ "_id" : { "x" : 32, "y" : -116 }, "value" : 1468 }
+{ "_id" : { "x" : 40, "y" : -88 }, "value" : 1309 }
+{ "_id" : { "x" : 32, "y" : -112 }, "value" : 1305 }
+{ "_id" : { "x" : 44, "y" : -124 }, "value" : 1119 }
+{ "_id" : { "x" : 40, "y" : -84 }, "value" : 1070 }
+{ "_id" : { "x" : 40, "y" : -72 }, "value" : 1030 }
+{ "_id" : { "x" : 32, "y" : -96 }, "value" : 993 }
+```
+
+
 ---
